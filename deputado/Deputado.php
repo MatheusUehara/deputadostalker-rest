@@ -36,13 +36,12 @@ class Deputado{
         $situacaoNaLegislaturaAtual = $obj->Deputado->situacaoNaLegislaturaAtual;
 
         if ( !is_string($nomeProfissao)){
-            $nomeProfissao = NULL;
+            $nomeProfissao = NULL;            
         }
         $stmt = $this->conn->prepare("UPDATE deputado SET dataNascimento = ? , nomeProfissao= ? , situacaoNaLegislaturaAtual= ? , Gabinete_idGabinete = ? , partido_idPartido = ?  WHERE ideCadastro = ? ");
         $stmt->bind_param( "sssisi", $dataNasc , $nomeProfissao , $situacaoNaLegislaturaAtual, $idGabinete, $idPartido, $ideCadastro);
         $result = $stmt->execute();
         $stmt->close();
-        //echo "DEPUTADO ".$obj->Deputado->nomeParlamentarAtual." TEVE OS DADOS ATUALIZADOS <br>";
     }
 
 
@@ -52,8 +51,8 @@ class Deputado{
         $telefone = $obj->Deputado->gabinete->telefone;
         $stmt = $this->conn->prepare("INSERT INTO gabinete (idGabinete, anexo , telefone) values (? , ? , ?)");
         $stmt->bind_param( "iis", $idGabinete ,$anexo , $telefone);
-        $result = $stmt->execute();       
-        // ****************** Gabinete Inserido ******************
+        $result = $stmt->execute();
+        $stmt->close();
     }
 
 
@@ -62,32 +61,45 @@ class Deputado{
         $nome = $obj->Deputado->partidoAtual->nome;
         $stmt = $this->conn->prepare("INSERT INTO partido (idPartido, nome) values (? , ?)");
         $stmt->bind_param( "ss", $idPartido , $nome);
-        $result = $stmt->execute();      
-        // ****************** Partidos inseridos ******************
+        $result = $stmt->execute();
+        $stmt->close();
     }
 
 
     function insereComissao($obj){
-        $ideCadastro = $obj->Deputado->ideCadastro;
-        echo "teste ".$ideCadastro;
-        foreach ($obj->Deputado->comissoes as $item) {
-            $idOrgao = $item->comissao->idOrgaoLegislativoCD;
-            $siglaComissao = $item->comissao->siglaComissao;
-            $nomeComissao = $item->comissao->nomeComissao;
+        $ideCadastro = $obj->Deputado->ideCadastro;        
+        try {
+            $count = count($obj->Deputado->comissoes->comissao);
+            if(is_array($obj->Deputado->comissoes->comissao)){
+                for ($i = 0; $i < $count; $i++) {            
+                    $idOrgao = $obj->Deputado->comissoes->comissao[$i]->idOrgaoLegislativoCD;
+                    $siglaComissao = $obj->Deputado->comissoes->comissao[$i]->siglaComissao;
+                    $nomeComissao = $obj->Deputado->comissoes->comissao[$i]->nomeComissao;
 
-            $stmt = $this->conn->prepare("INSERT INTO orgao (idOrgao, siglaComissao, nomeComissao) values (? , ? , ?)");
-            $stmt->bind_param( "iss", $idOrgao,$siglaComissao,$nomeComissao);
-            $result = $stmt->execute();
+                    $stmt = $this->conn->prepare("INSERT INTO orgao (idOrgao, siglaComissao, nomeComissao) values (? , ? , ?)");
+                    $stmt->bind_param( "iss", $idOrgao,$siglaComissao,$nomeComissao);
+                    $result = $stmt->execute();
+                    $stmt->close();
 
-            $this->insereDeputadoComissao($ideCadastro,$idOrgao);            
+                    $this->insereDeputadoComissao($ideCadastro,$idOrgao);
+                }
+            }    
+        } catch (Exception $e) {
+            /*
+            Aqui podemos executar um debug para saber quais deputados obtiveram falha
+            echo "Deputado abaixo não possui comissões <br>";
+            print_r($obj);
+            */
         }
-
+        
     }
+
 
     function insereDeputadoComissao($ideCadastro, $idOrgao){
         $stmt = $this->conn->prepare("INSERT INTO deputado_has_orgao (deputado_ideCadastro,orgao_idOrgao) values (? , ? )");
         $stmt->bind_param( "ii", $ideCadastro,$idOrgao);
         $result = $stmt->execute();
+        $stmt->close();
     }
 
 
@@ -120,21 +132,10 @@ class Deputado{
                 values (? , ? , ? , ? , ? , ? , ? , ? , ? )");
             $stmt->bind_param( "iiissssss", $ideCadastro,$matricula,$idParlamentar,$nomeCivil,$nomeParlamentar,$urlFoto,$sexo,$ufRepresentacaoAtual,$email);
             $result = $stmt->execute();
+            $stmt->close();
+
             $this->inserirDetalhesDeputado($ideCadastro,55);
-            /*
-            // ----------------- Aqui é um debug caso seja necessário visualizar o que está sendo retornado ----------------------- 
-
-            echo "<img src= '" . $item -> urlFoto ."'/>"."<br />";
-            echo "<strong>Ide Cadastro:</strong> ".$item -> ideCadastro."<br />";
-            echo "<strong>Nome:</strong> ".$item -> nome."<br />";
-            echo "<strong>Nome Parlamentar:</strong> ".$item -> nomeParlamentar."<br />";
-            echo "<strong>Sexo:</strong> ".$item -> sexo."<br />";
-            echo "<strong>Partido:</strong> ".$item -> partido."<br />";
-            echo "<br />";
-
-            */
         }        
-        $stmt->close();
     }
 }
 ?>

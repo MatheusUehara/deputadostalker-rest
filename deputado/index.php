@@ -9,8 +9,9 @@ $app->get('/:name', function ($name) {
 $app->get('/atualizarBaseDeputados/', function () {
     require_once 'Deputado.php';
     $obterdeputado = new Deputado();
-    $obterdeputado->inserirDetalhesDeputado(101309,55);
-    //$obterdeputado->obterDeputados();
+    // execução de obtençao de detalhes de um deputado especifico
+    //$obterdeputado->inserirDetalhesDeputado(160617,55);
+    $obterdeputado->obterDeputados();
 });
 $app->run();
 ?> 

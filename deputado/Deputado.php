@@ -1,4 +1,5 @@
 <?php
+
 class Deputado{
 
     private $conn;
@@ -9,21 +10,19 @@ class Deputado{
         $this->conn = $db->connect();
     }
 
-    function inserirDetalhesDeputado($ideCadastro,$numLegislatura){
+    function inserirDetalhesDeputado($ideCadastro){
 
         $curl = curl_init();        
         curl_setopt_array($curl, array(
             CURLOPT_RETURNTRANSFER => 1,
-            CURLOPT_URL => 'http://www.camara.gov.br/SitCamaraWS/Deputados.asmx/ObterDetalhesDeputado?ideCadastro='.$ideCadastro.'&numLegislatura='.$numLegislatura,
+            CURLOPT_URL => 'http://www.camara.gov.br/SitCamaraWS/Deputados.asmx/ObterDetalhesDeputado?ideCadastro='.$ideCadastro.'&numLegislatura=55',
             CURLOPT_USERAGENT => 'Deputado Stalker postRequest',
         ));
 
         $resp = curl_exec($curl);
         curl_close($curl);
-        $xml_object = simplexml_load_string($resp);
         $json = json_encode(simplexml_load_string($resp));
         $obj = json_decode($json);
-
         $this->inserePartidos($obj);
         $this->insereGabinete($obj);
         $this->insereComissao($obj);
@@ -38,9 +37,9 @@ class Deputado{
         if ( !is_string($nomeProfissao)){
             $nomeProfissao = NULL;            
         }
-        $stmt = $this->conn->prepare("UPDATE deputado SET dataNascimento = ? , nomeProfissao= ? , situacaoNaLegislaturaAtual= ? , Gabinete_idGabinete = ? , partido_idPartido = ?  WHERE ideCadastro = ? ");
-        $stmt->bind_param( "sssisi", $dataNasc , $nomeProfissao , $situacaoNaLegislaturaAtual, $idGabinete, $idPartido, $ideCadastro);
-        $result = $stmt->execute();
+        $stmt = $this->conn->prepare("UPDATE deputado SET dataNascimento = ? , nomeProfissao= ? , situacaoLegislaturaAtual= ? , gabinete_idGabinete = ? , partido_idPartido = ?  WHERE ideCadastro = ? ");
+        $stmt->bind_param("sssisi", $dataNasc,$nomeProfissao,$situacaoNaLegislaturaAtual,$idGabinete,$idPartido,$ideCadastro);
+        $stmt->execute();
         $stmt->close();
     }
 
@@ -51,7 +50,7 @@ class Deputado{
         $telefone = $obj->Deputado->gabinete->telefone;
         $stmt = $this->conn->prepare("INSERT INTO gabinete (idGabinete, anexo , telefone) values (? , ? , ?)");
         $stmt->bind_param( "iis", $idGabinete ,$anexo , $telefone);
-        $result = $stmt->execute();
+        $stmt->execute();
         $stmt->close();
     }
 
@@ -61,7 +60,7 @@ class Deputado{
         $nome = $obj->Deputado->partidoAtual->nome;
         $stmt = $this->conn->prepare("INSERT INTO partido (idPartido, nome) values (? , ?)");
         $stmt->bind_param( "ss", $idPartido , $nome);
-        $result = $stmt->execute();
+        $stmt->execute();
         $stmt->close();
     }
 
@@ -78,18 +77,21 @@ class Deputado{
 
                     $stmt = $this->conn->prepare("INSERT INTO orgao (idOrgao, siglaComissao, nomeComissao) values (? , ? , ?)");
                     $stmt->bind_param( "iss", $idOrgao,$siglaComissao,$nomeComissao);
-                    $result = $stmt->execute();
+                    $stmt->execute();
                     $stmt->close();
 
                     $this->insereDeputadoComissao($ideCadastro,$idOrgao);
                 }
-            }    
+            }
         } catch (Exception $e) {
             /*
             Aqui podemos executar um debug para saber quais deputados obtiveram falha
+
             echo "Deputado abaixo não possui comissões <br>";
             print_r($obj);
+            echo "<br> ------------------------------------------------------------------------------------------<br>";
             */
+
         }
         
     }
@@ -98,7 +100,7 @@ class Deputado{
     function insereDeputadoComissao($ideCadastro, $idOrgao){
         $stmt = $this->conn->prepare("INSERT INTO deputado_has_orgao (deputado_ideCadastro,orgao_idOrgao) values (? , ? )");
         $stmt->bind_param( "ii", $ideCadastro,$idOrgao);
-        $result = $stmt->execute();
+        $stmt->execute();
         $stmt->close();
     }
 
@@ -114,7 +116,6 @@ class Deputado{
 
         $resp = curl_exec($curl);
         curl_close($curl);
-        $xml_object = simplexml_load_string($resp);
         $json = json_encode(simplexml_load_string($resp));
         $obj = json_decode($json);
 
@@ -130,11 +131,10 @@ class Deputado{
             $email = $item-> email;
             $stmt = $this->conn->prepare("INSERT INTO deputado(ideCadastro, matricula, idParlamentar, nomeCivil, nomeParlamentar, urlFoto, sexo, ufRepresentacaoAtual, email) 
                 values (? , ? , ? , ? , ? , ? , ? , ? , ? )");
-            $stmt->bind_param( "iiissssss", $ideCadastro,$matricula,$idParlamentar,$nomeCivil,$nomeParlamentar,$urlFoto,$sexo,$ufRepresentacaoAtual,$email);
-            $result = $stmt->execute();
+            $stmt->bind_param( "iiissssss", $ideCadastro, $matricula, $idParlamentar, $nomeCivil, $nomeParlamentar, $urlFoto, $sexo, $ufRepresentacaoAtual, $email);
+            $stmt->execute();
             $stmt->close();
-
-            $this->inserirDetalhesDeputado($ideCadastro,55);
+            $this->inserirDetalhesDeputado($ideCadastro);
         }        
     }
 }

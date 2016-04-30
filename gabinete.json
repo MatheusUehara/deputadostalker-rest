@@ -1,0 +1,2565 @@
+{
+  "error": false,
+  "gabinete": [
+    {
+      "idGabinete": 4,
+      "anexo": 1,
+      "telefone": "3215-5966"
+    },
+    {
+      "idGabinete": 28,
+      "anexo": 1,
+      "telefone": "3215-5964"
+    },
+    {
+      "idGabinete": 201,
+      "anexo": 4,
+      "telefone": "3215-5201"
+    },
+    {
+      "idGabinete": 202,
+      "anexo": 4,
+      "telefone": "3215-5202"
+    },
+    {
+      "idGabinete": 203,
+      "anexo": 4,
+      "telefone": "3215-5203"
+    },
+    {
+      "idGabinete": 204,
+      "anexo": 4,
+      "telefone": "3215-5204"
+    },
+    {
+      "idGabinete": 205,
+      "anexo": 4,
+      "telefone": "3215-5205"
+    },
+    {
+      "idGabinete": 206,
+      "anexo": 4,
+      "telefone": "3215-5206"
+    },
+    {
+      "idGabinete": 207,
+      "anexo": 4,
+      "telefone": "3215-5207"
+    },
+    {
+      "idGabinete": 208,
+      "anexo": 4,
+      "telefone": "3215-5208"
+    },
+    {
+      "idGabinete": 209,
+      "anexo": 4,
+      "telefone": "3215-5209"
+    },
+    {
+      "idGabinete": 210,
+      "anexo": 4,
+      "telefone": "3215-5210"
+    },
+    {
+      "idGabinete": 211,
+      "anexo": 4,
+      "telefone": "3215-5211"
+    },
+    {
+      "idGabinete": 212,
+      "anexo": 4,
+      "telefone": "3215-5212"
+    },
+    {
+      "idGabinete": 213,
+      "anexo": 4,
+      "telefone": "3215-5213"
+    },
+    {
+      "idGabinete": 214,
+      "anexo": 4,
+      "telefone": "3215-5214"
+    },
+    {
+      "idGabinete": 215,
+      "anexo": 4,
+      "telefone": "3215-5215"
+    },
+    {
+      "idGabinete": 216,
+      "anexo": 4,
+      "telefone": "3215-5216"
+    },
+    {
+      "idGabinete": 217,
+      "anexo": 4,
+      "telefone": "3215-5217"
+    },
+    {
+      "idGabinete": 218,
+      "anexo": 4,
+      "telefone": "3215-5218"
+    },
+    {
+      "idGabinete": 219,
+      "anexo": 4,
+      "telefone": "3215-5219"
+    },
+    {
+      "idGabinete": 220,
+      "anexo": 4,
+      "telefone": "3215-5220"
+    },
+    {
+      "idGabinete": 221,
+      "anexo": 4,
+      "telefone": "3215-5221"
+    },
+    {
+      "idGabinete": 222,
+      "anexo": 4,
+      "telefone": "3215-5222"
+    },
+    {
+      "idGabinete": 223,
+      "anexo": 4,
+      "telefone": "3215-5223"
+    },
+    {
+      "idGabinete": 224,
+      "anexo": 4,
+      "telefone": "3215-5224"
+    },
+    {
+      "idGabinete": 225,
+      "anexo": 4,
+      "telefone": "3215-5225"
+    },
+    {
+      "idGabinete": 226,
+      "anexo": 4,
+      "telefone": "3215-5226"
+    },
+    {
+      "idGabinete": 227,
+      "anexo": 4,
+      "telefone": "3215-5227"
+    },
+    {
+      "idGabinete": 228,
+      "anexo": 4,
+      "telefone": "3215-5228"
+    },
+    {
+      "idGabinete": 229,
+      "anexo": 4,
+      "telefone": "3215-5229"
+    },
+    {
+      "idGabinete": 230,
+      "anexo": 4,
+      "telefone": "3215-5230"
+    },
+    {
+      "idGabinete": 231,
+      "anexo": 4,
+      "telefone": "3215-5231"
+    },
+    {
+      "idGabinete": 232,
+      "anexo": 4,
+      "telefone": "3215-5232"
+    },
+    {
+      "idGabinete": 233,
+      "anexo": 4,
+      "telefone": "3215-5233"
+    },
+    {
+      "idGabinete": 234,
+      "anexo": 4,
+      "telefone": "3215-5234"
+    },
+    {
+      "idGabinete": 235,
+      "anexo": 4,
+      "telefone": "3215-5235"
+    },
+    {
+      "idGabinete": 236,
+      "anexo": 4,
+      "telefone": "3215-5236"
+    },
+    {
+      "idGabinete": 237,
+      "anexo": 4,
+      "telefone": "3215-5237"
+    },
+    {
+      "idGabinete": 238,
+      "anexo": 4,
+      "telefone": "3215-5238"
+    },
+    {
+      "idGabinete": 239,
+      "anexo": 4,
+      "telefone": "3215-5239"
+    },
+    {
+      "idGabinete": 240,
+      "anexo": 4,
+      "telefone": "3215-5240"
+    },
+    {
+      "idGabinete": 241,
+      "anexo": 4,
+      "telefone": "3215-5241"
+    },
+    {
+      "idGabinete": 242,
+      "anexo": 4,
+      "telefone": "3215-5242"
+    },
+    {
+      "idGabinete": 243,
+      "anexo": 4,
+      "telefone": "3215-5243"
+    },
+    {
+      "idGabinete": 244,
+      "anexo": 4,
+      "telefone": "3215-5244"
+    },
+    {
+      "idGabinete": 245,
+      "anexo": 4,
+      "telefone": "3215-5245"
+    },
+    {
+      "idGabinete": 246,
+      "anexo": 4,
+      "telefone": "3215-5246"
+    },
+    {
+      "idGabinete": 248,
+      "anexo": 4,
+      "telefone": "3215-5248"
+    },
+    {
+      "idGabinete": 250,
+      "anexo": 4,
+      "telefone": "3215-5250"
+    },
+    {
+      "idGabinete": 252,
+      "anexo": 4,
+      "telefone": "3215-5252"
+    },
+    {
+      "idGabinete": 254,
+      "anexo": 4,
+      "telefone": "3215-5254"
+    },
+    {
+      "idGabinete": 256,
+      "anexo": 4,
+      "telefone": "3215-5256"
+    },
+    {
+      "idGabinete": 258,
+      "anexo": 4,
+      "telefone": "3215-5258"
+    },
+    {
+      "idGabinete": 260,
+      "anexo": 4,
+      "telefone": "3215-5260"
+    },
+    {
+      "idGabinete": 262,
+      "anexo": 4,
+      "telefone": "3215-5262"
+    },
+    {
+      "idGabinete": 265,
+      "anexo": 3,
+      "telefone": "3215-5265"
+    },
+    {
+      "idGabinete": 266,
+      "anexo": 3,
+      "telefone": "3215-5266"
+    },
+    {
+      "idGabinete": 267,
+      "anexo": 3,
+      "telefone": "3215-5267"
+    },
+    {
+      "idGabinete": 268,
+      "anexo": 3,
+      "telefone": "3215-5268"
+    },
+    {
+      "idGabinete": 269,
+      "anexo": 3,
+      "telefone": "3215-5269"
+    },
+    {
+      "idGabinete": 270,
+      "anexo": 3,
+      "telefone": "3215-5270"
+    },
+    {
+      "idGabinete": 271,
+      "anexo": 3,
+      "telefone": "3215-5271"
+    },
+    {
+      "idGabinete": 272,
+      "anexo": 3,
+      "telefone": "3215-5272"
+    },
+    {
+      "idGabinete": 273,
+      "anexo": 3,
+      "telefone": "3215-5273"
+    },
+    {
+      "idGabinete": 274,
+      "anexo": 3,
+      "telefone": "3215-5274"
+    },
+    {
+      "idGabinete": 275,
+      "anexo": 3,
+      "telefone": "3215-5275"
+    },
+    {
+      "idGabinete": 276,
+      "anexo": 3,
+      "telefone": "3215-5276"
+    },
+    {
+      "idGabinete": 277,
+      "anexo": 3,
+      "telefone": "3215-5277"
+    },
+    {
+      "idGabinete": 278,
+      "anexo": 3,
+      "telefone": "3215-5278"
+    },
+    {
+      "idGabinete": 279,
+      "anexo": 3,
+      "telefone": "3215-5279"
+    },
+    {
+      "idGabinete": 280,
+      "anexo": 3,
+      "telefone": "3215-5280"
+    },
+    {
+      "idGabinete": 281,
+      "anexo": 3,
+      "telefone": "3215-5281"
+    },
+    {
+      "idGabinete": 282,
+      "anexo": 3,
+      "telefone": "3215-5282"
+    },
+    {
+      "idGabinete": 283,
+      "anexo": 3,
+      "telefone": "3215-5283"
+    },
+    {
+      "idGabinete": 284,
+      "anexo": 3,
+      "telefone": "3215-5284"
+    },
+    {
+      "idGabinete": 285,
+      "anexo": 3,
+      "telefone": "3215-5285"
+    },
+    {
+      "idGabinete": 286,
+      "anexo": 3,
+      "telefone": "3215-5286"
+    },
+    {
+      "idGabinete": 301,
+      "anexo": 4,
+      "telefone": "3215-5301"
+    },
+    {
+      "idGabinete": 302,
+      "anexo": 4,
+      "telefone": "3215-5302"
+    },
+    {
+      "idGabinete": 303,
+      "anexo": 4,
+      "telefone": "3215-5303"
+    },
+    {
+      "idGabinete": 304,
+      "anexo": 4,
+      "telefone": "3215-5304"
+    },
+    {
+      "idGabinete": 305,
+      "anexo": 4,
+      "telefone": "3215-5305"
+    },
+    {
+      "idGabinete": 306,
+      "anexo": 4,
+      "telefone": "3215-5306"
+    },
+    {
+      "idGabinete": 307,
+      "anexo": 4,
+      "telefone": "3215-5307"
+    },
+    {
+      "idGabinete": 308,
+      "anexo": 4,
+      "telefone": "3215-5308"
+    },
+    {
+      "idGabinete": 309,
+      "anexo": 4,
+      "telefone": "3215-5309"
+    },
+    {
+      "idGabinete": 310,
+      "anexo": 4,
+      "telefone": "3215-5310"
+    },
+    {
+      "idGabinete": 311,
+      "anexo": 4,
+      "telefone": "3215-5311"
+    },
+    {
+      "idGabinete": 312,
+      "anexo": 4,
+      "telefone": "3215-5312"
+    },
+    {
+      "idGabinete": 313,
+      "anexo": 4,
+      "telefone": "3215-5313"
+    },
+    {
+      "idGabinete": 314,
+      "anexo": 4,
+      "telefone": "3215-5314"
+    },
+    {
+      "idGabinete": 315,
+      "anexo": 4,
+      "telefone": "3215-5315"
+    },
+    {
+      "idGabinete": 316,
+      "anexo": 4,
+      "telefone": "3215-5316"
+    },
+    {
+      "idGabinete": 317,
+      "anexo": 4,
+      "telefone": "3215-5317"
+    },
+    {
+      "idGabinete": 318,
+      "anexo": 4,
+      "telefone": "3215-5318"
+    },
+    {
+      "idGabinete": 319,
+      "anexo": 4,
+      "telefone": "3215-5319"
+    },
+    {
+      "idGabinete": 320,
+      "anexo": 4,
+      "telefone": "3215-5320"
+    },
+    {
+      "idGabinete": 321,
+      "anexo": 4,
+      "telefone": "3215-5321"
+    },
+    {
+      "idGabinete": 322,
+      "anexo": 4,
+      "telefone": "3215-5322"
+    },
+    {
+      "idGabinete": 323,
+      "anexo": 4,
+      "telefone": "3215-5323"
+    },
+    {
+      "idGabinete": 324,
+      "anexo": 4,
+      "telefone": "3215-5324"
+    },
+    {
+      "idGabinete": 325,
+      "anexo": 4,
+      "telefone": "3215-5325"
+    },
+    {
+      "idGabinete": 326,
+      "anexo": 4,
+      "telefone": "3215-5326"
+    },
+    {
+      "idGabinete": 327,
+      "anexo": 4,
+      "telefone": "3215-5327"
+    },
+    {
+      "idGabinete": 328,
+      "anexo": 4,
+      "telefone": "3215-5328"
+    },
+    {
+      "idGabinete": 329,
+      "anexo": 4,
+      "telefone": "3215-5329"
+    },
+    {
+      "idGabinete": 330,
+      "anexo": 4,
+      "telefone": "3215-5330"
+    },
+    {
+      "idGabinete": 331,
+      "anexo": 4,
+      "telefone": "3215-5331"
+    },
+    {
+      "idGabinete": 332,
+      "anexo": 4,
+      "telefone": "3215-5332"
+    },
+    {
+      "idGabinete": 333,
+      "anexo": 4,
+      "telefone": "3215-5333"
+    },
+    {
+      "idGabinete": 334,
+      "anexo": 4,
+      "telefone": "3215-5334"
+    },
+    {
+      "idGabinete": 335,
+      "anexo": 4,
+      "telefone": "3215-5335"
+    },
+    {
+      "idGabinete": 336,
+      "anexo": 4,
+      "telefone": "3215-5336"
+    },
+    {
+      "idGabinete": 337,
+      "anexo": 4,
+      "telefone": "3215-5337"
+    },
+    {
+      "idGabinete": 338,
+      "anexo": 4,
+      "telefone": "3215-5338"
+    },
+    {
+      "idGabinete": 339,
+      "anexo": 4,
+      "telefone": "3215-5339"
+    },
+    {
+      "idGabinete": 340,
+      "anexo": 4,
+      "telefone": "3215-5340"
+    },
+    {
+      "idGabinete": 341,
+      "anexo": 4,
+      "telefone": "3215-5341"
+    },
+    {
+      "idGabinete": 342,
+      "anexo": 4,
+      "telefone": "3215-5342"
+    },
+    {
+      "idGabinete": 343,
+      "anexo": 4,
+      "telefone": "3215-5343"
+    },
+    {
+      "idGabinete": 344,
+      "anexo": 4,
+      "telefone": "3215-5344"
+    },
+    {
+      "idGabinete": 345,
+      "anexo": 4,
+      "telefone": "3215-5345"
+    },
+    {
+      "idGabinete": 346,
+      "anexo": 4,
+      "telefone": "3215-5346"
+    },
+    {
+      "idGabinete": 348,
+      "anexo": 4,
+      "telefone": "3215-5348"
+    },
+    {
+      "idGabinete": 350,
+      "anexo": 4,
+      "telefone": "3215-5350"
+    },
+    {
+      "idGabinete": 352,
+      "anexo": 4,
+      "telefone": "3215-5352"
+    },
+    {
+      "idGabinete": 354,
+      "anexo": 4,
+      "telefone": "3215-5354"
+    },
+    {
+      "idGabinete": 356,
+      "anexo": 4,
+      "telefone": "3215-5356"
+    },
+    {
+      "idGabinete": 358,
+      "anexo": 4,
+      "telefone": "3215-5358"
+    },
+    {
+      "idGabinete": 360,
+      "anexo": 4,
+      "telefone": "3215-5360"
+    },
+    {
+      "idGabinete": 362,
+      "anexo": 4,
+      "telefone": "3215-5362"
+    },
+    {
+      "idGabinete": 366,
+      "anexo": 3,
+      "telefone": "3215-5366"
+    },
+    {
+      "idGabinete": 367,
+      "anexo": 3,
+      "telefone": "3215-5367"
+    },
+    {
+      "idGabinete": 368,
+      "anexo": 3,
+      "telefone": "3215-5368"
+    },
+    {
+      "idGabinete": 369,
+      "anexo": 3,
+      "telefone": "3215-5369"
+    },
+    {
+      "idGabinete": 370,
+      "anexo": 3,
+      "telefone": "3215-5370"
+    },
+    {
+      "idGabinete": 371,
+      "anexo": 3,
+      "telefone": "3215-5371"
+    },
+    {
+      "idGabinete": 372,
+      "anexo": 3,
+      "telefone": "3215-5372"
+    },
+    {
+      "idGabinete": 373,
+      "anexo": 3,
+      "telefone": "3215-5373"
+    },
+    {
+      "idGabinete": 374,
+      "anexo": 3,
+      "telefone": "3215-5374"
+    },
+    {
+      "idGabinete": 375,
+      "anexo": 3,
+      "telefone": "3215-5375"
+    },
+    {
+      "idGabinete": 376,
+      "anexo": 3,
+      "telefone": "3215-5376"
+    },
+    {
+      "idGabinete": 379,
+      "anexo": 3,
+      "telefone": "3215-5379"
+    },
+    {
+      "idGabinete": 380,
+      "anexo": 3,
+      "telefone": "3215-5380"
+    },
+    {
+      "idGabinete": 381,
+      "anexo": 3,
+      "telefone": "3215-5381"
+    },
+    {
+      "idGabinete": 382,
+      "anexo": 3,
+      "telefone": "3215-5382"
+    },
+    {
+      "idGabinete": 383,
+      "anexo": 3,
+      "telefone": "3215-5383"
+    },
+    {
+      "idGabinete": 384,
+      "anexo": 3,
+      "telefone": "3215-5384"
+    },
+    {
+      "idGabinete": 385,
+      "anexo": 3,
+      "telefone": "3215-5385"
+    },
+    {
+      "idGabinete": 401,
+      "anexo": 4,
+      "telefone": "3215-5401"
+    },
+    {
+      "idGabinete": 402,
+      "anexo": 4,
+      "telefone": "3215-5402"
+    },
+    {
+      "idGabinete": 403,
+      "anexo": 4,
+      "telefone": "3215-5403"
+    },
+    {
+      "idGabinete": 404,
+      "anexo": 4,
+      "telefone": "3215-5404"
+    },
+    {
+      "idGabinete": 405,
+      "anexo": 4,
+      "telefone": "3215-5405"
+    },
+    {
+      "idGabinete": 406,
+      "anexo": 4,
+      "telefone": "3215-5406"
+    },
+    {
+      "idGabinete": 407,
+      "anexo": 4,
+      "telefone": "3215-5407"
+    },
+    {
+      "idGabinete": 408,
+      "anexo": 4,
+      "telefone": "3215-5408"
+    },
+    {
+      "idGabinete": 409,
+      "anexo": 4,
+      "telefone": "3215-5409"
+    },
+    {
+      "idGabinete": 410,
+      "anexo": 4,
+      "telefone": "3215-5410"
+    },
+    {
+      "idGabinete": 411,
+      "anexo": 4,
+      "telefone": "3215-5411"
+    },
+    {
+      "idGabinete": 412,
+      "anexo": 4,
+      "telefone": "3215-5412"
+    },
+    {
+      "idGabinete": 413,
+      "anexo": 4,
+      "telefone": "3215-5413"
+    },
+    {
+      "idGabinete": 414,
+      "anexo": 4,
+      "telefone": "3215-5414"
+    },
+    {
+      "idGabinete": 415,
+      "anexo": 4,
+      "telefone": "3215-5415"
+    },
+    {
+      "idGabinete": 416,
+      "anexo": 4,
+      "telefone": "3215-5416"
+    },
+    {
+      "idGabinete": 417,
+      "anexo": 4,
+      "telefone": "3215-5417"
+    },
+    {
+      "idGabinete": 418,
+      "anexo": 4,
+      "telefone": "3215-5418"
+    },
+    {
+      "idGabinete": 419,
+      "anexo": 4,
+      "telefone": "3215-5419"
+    },
+    {
+      "idGabinete": 420,
+      "anexo": 4,
+      "telefone": "3215-5420"
+    },
+    {
+      "idGabinete": 421,
+      "anexo": 4,
+      "telefone": "3215-5421"
+    },
+    {
+      "idGabinete": 422,
+      "anexo": 4,
+      "telefone": "3215-5422"
+    },
+    {
+      "idGabinete": 423,
+      "anexo": 4,
+      "telefone": "3215-5423"
+    },
+    {
+      "idGabinete": 424,
+      "anexo": 4,
+      "telefone": "3215-5424"
+    },
+    {
+      "idGabinete": 425,
+      "anexo": 4,
+      "telefone": "3215-5425"
+    },
+    {
+      "idGabinete": 426,
+      "anexo": 4,
+      "telefone": "3215-5426"
+    },
+    {
+      "idGabinete": 427,
+      "anexo": 4,
+      "telefone": "3215-5427"
+    },
+    {
+      "idGabinete": 428,
+      "anexo": 4,
+      "telefone": "3215-5428"
+    },
+    {
+      "idGabinete": 429,
+      "anexo": 4,
+      "telefone": "3215-5429"
+    },
+    {
+      "idGabinete": 430,
+      "anexo": 4,
+      "telefone": "3215-5430"
+    },
+    {
+      "idGabinete": 431,
+      "anexo": 4,
+      "telefone": "3215-5431"
+    },
+    {
+      "idGabinete": 432,
+      "anexo": 4,
+      "telefone": "3215-5432"
+    },
+    {
+      "idGabinete": 433,
+      "anexo": 4,
+      "telefone": "3215-5433"
+    },
+    {
+      "idGabinete": 434,
+      "anexo": 4,
+      "telefone": "3215-5434"
+    },
+    {
+      "idGabinete": 435,
+      "anexo": 4,
+      "telefone": "3215-5435"
+    },
+    {
+      "idGabinete": 436,
+      "anexo": 4,
+      "telefone": "3215-5436"
+    },
+    {
+      "idGabinete": 437,
+      "anexo": 4,
+      "telefone": "3215-5437"
+    },
+    {
+      "idGabinete": 438,
+      "anexo": 4,
+      "telefone": "3215-5438"
+    },
+    {
+      "idGabinete": 439,
+      "anexo": 4,
+      "telefone": "3215-5439"
+    },
+    {
+      "idGabinete": 440,
+      "anexo": 4,
+      "telefone": "3215-5440"
+    },
+    {
+      "idGabinete": 441,
+      "anexo": 4,
+      "telefone": "3215-5441"
+    },
+    {
+      "idGabinete": 442,
+      "anexo": 4,
+      "telefone": "3215-5442"
+    },
+    {
+      "idGabinete": 443,
+      "anexo": 4,
+      "telefone": "3215-5443"
+    },
+    {
+      "idGabinete": 444,
+      "anexo": 4,
+      "telefone": "3215-5444"
+    },
+    {
+      "idGabinete": 445,
+      "anexo": 4,
+      "telefone": "3215-5445"
+    },
+    {
+      "idGabinete": 446,
+      "anexo": 4,
+      "telefone": "3215-5446"
+    },
+    {
+      "idGabinete": 448,
+      "anexo": 4,
+      "telefone": "3215-5448"
+    },
+    {
+      "idGabinete": 450,
+      "anexo": 4,
+      "telefone": "3215-5450"
+    },
+    {
+      "idGabinete": 452,
+      "anexo": 4,
+      "telefone": "3215-5452"
+    },
+    {
+      "idGabinete": 454,
+      "anexo": 4,
+      "telefone": "3215-5454"
+    },
+    {
+      "idGabinete": 456,
+      "anexo": 4,
+      "telefone": "3215-5456"
+    },
+    {
+      "idGabinete": 458,
+      "anexo": 4,
+      "telefone": "3215-5458"
+    },
+    {
+      "idGabinete": 460,
+      "anexo": 4,
+      "telefone": "3215-5460"
+    },
+    {
+      "idGabinete": 462,
+      "anexo": 4,
+      "telefone": "3215-5462"
+    },
+    {
+      "idGabinete": 467,
+      "anexo": 3,
+      "telefone": "3215-5467"
+    },
+    {
+      "idGabinete": 468,
+      "anexo": 3,
+      "telefone": "3215-5468"
+    },
+    {
+      "idGabinete": 469,
+      "anexo": 3,
+      "telefone": "3215-5469"
+    },
+    {
+      "idGabinete": 471,
+      "anexo": 3,
+      "telefone": "3215-5471"
+    },
+    {
+      "idGabinete": 472,
+      "anexo": 3,
+      "telefone": "3215-5472"
+    },
+    {
+      "idGabinete": 473,
+      "anexo": 3,
+      "telefone": "3215-5473"
+    },
+    {
+      "idGabinete": 474,
+      "anexo": 3,
+      "telefone": "3215-5474"
+    },
+    {
+      "idGabinete": 475,
+      "anexo": 3,
+      "telefone": "3215-5475"
+    },
+    {
+      "idGabinete": 476,
+      "anexo": 3,
+      "telefone": "3215-5476"
+    },
+    {
+      "idGabinete": 478,
+      "anexo": 3,
+      "telefone": "3215-5478"
+    },
+    {
+      "idGabinete": 479,
+      "anexo": 3,
+      "telefone": "3215-5479"
+    },
+    {
+      "idGabinete": 480,
+      "anexo": 3,
+      "telefone": "3215-5480"
+    },
+    {
+      "idGabinete": 481,
+      "anexo": 3,
+      "telefone": "3215-5481"
+    },
+    {
+      "idGabinete": 482,
+      "anexo": 3,
+      "telefone": "3215-5482"
+    },
+    {
+      "idGabinete": 483,
+      "anexo": 3,
+      "telefone": "3215-5483"
+    },
+    {
+      "idGabinete": 484,
+      "anexo": 3,
+      "telefone": "3215-5484"
+    },
+    {
+      "idGabinete": 501,
+      "anexo": 4,
+      "telefone": "3215-5501"
+    },
+    {
+      "idGabinete": 502,
+      "anexo": 4,
+      "telefone": "3215-5502"
+    },
+    {
+      "idGabinete": 503,
+      "anexo": 4,
+      "telefone": "3215-5503"
+    },
+    {
+      "idGabinete": 504,
+      "anexo": 4,
+      "telefone": "3215-5504"
+    },
+    {
+      "idGabinete": 505,
+      "anexo": 4,
+      "telefone": "3215-5505"
+    },
+    {
+      "idGabinete": 506,
+      "anexo": 4,
+      "telefone": "3215-5506"
+    },
+    {
+      "idGabinete": 507,
+      "anexo": 4,
+      "telefone": "3215-5507"
+    },
+    {
+      "idGabinete": 508,
+      "anexo": 4,
+      "telefone": "3215-5508"
+    },
+    {
+      "idGabinete": 509,
+      "anexo": 4,
+      "telefone": "3215-5509"
+    },
+    {
+      "idGabinete": 510,
+      "anexo": 4,
+      "telefone": "3215-5510"
+    },
+    {
+      "idGabinete": 511,
+      "anexo": 4,
+      "telefone": "3215-5511"
+    },
+    {
+      "idGabinete": 512,
+      "anexo": 4,
+      "telefone": "3215-5512"
+    },
+    {
+      "idGabinete": 513,
+      "anexo": 4,
+      "telefone": "3215-5513"
+    },
+    {
+      "idGabinete": 514,
+      "anexo": 4,
+      "telefone": "3215-5514"
+    },
+    {
+      "idGabinete": 515,
+      "anexo": 4,
+      "telefone": "3215-5515"
+    },
+    {
+      "idGabinete": 516,
+      "anexo": 4,
+      "telefone": "3215-5516"
+    },
+    {
+      "idGabinete": 517,
+      "anexo": 4,
+      "telefone": "3215-5517"
+    },
+    {
+      "idGabinete": 518,
+      "anexo": 4,
+      "telefone": "3215-5518"
+    },
+    {
+      "idGabinete": 519,
+      "anexo": 4,
+      "telefone": "3215-5519"
+    },
+    {
+      "idGabinete": 520,
+      "anexo": 4,
+      "telefone": "3215-5520"
+    },
+    {
+      "idGabinete": 521,
+      "anexo": 4,
+      "telefone": "3215-5521"
+    },
+    {
+      "idGabinete": 522,
+      "anexo": 4,
+      "telefone": "3215-5522"
+    },
+    {
+      "idGabinete": 523,
+      "anexo": 4,
+      "telefone": "3215-5523"
+    },
+    {
+      "idGabinete": 524,
+      "anexo": 4,
+      "telefone": "3215-5524"
+    },
+    {
+      "idGabinete": 525,
+      "anexo": 4,
+      "telefone": "3215-5525"
+    },
+    {
+      "idGabinete": 526,
+      "anexo": 4,
+      "telefone": "3215-5526"
+    },
+    {
+      "idGabinete": 527,
+      "anexo": 4,
+      "telefone": "3215-5527"
+    },
+    {
+      "idGabinete": 528,
+      "anexo": 4,
+      "telefone": "3215-5528"
+    },
+    {
+      "idGabinete": 529,
+      "anexo": 4,
+      "telefone": "3215-5529"
+    },
+    {
+      "idGabinete": 530,
+      "anexo": 4,
+      "telefone": "3215-5530"
+    },
+    {
+      "idGabinete": 531,
+      "anexo": 4,
+      "telefone": "3215-5531"
+    },
+    {
+      "idGabinete": 532,
+      "anexo": 4,
+      "telefone": "3215-5532"
+    },
+    {
+      "idGabinete": 533,
+      "anexo": 4,
+      "telefone": "3215-5533"
+    },
+    {
+      "idGabinete": 534,
+      "anexo": 4,
+      "telefone": "3215-5534"
+    },
+    {
+      "idGabinete": 535,
+      "anexo": 4,
+      "telefone": "3215-5535"
+    },
+    {
+      "idGabinete": 536,
+      "anexo": 4,
+      "telefone": "3215-5536"
+    },
+    {
+      "idGabinete": 537,
+      "anexo": 4,
+      "telefone": "3215-5537"
+    },
+    {
+      "idGabinete": 538,
+      "anexo": 4,
+      "telefone": "3215-5538"
+    },
+    {
+      "idGabinete": 539,
+      "anexo": 4,
+      "telefone": "3215-5539"
+    },
+    {
+      "idGabinete": 540,
+      "anexo": 4,
+      "telefone": "3215-1540"
+    },
+    {
+      "idGabinete": 541,
+      "anexo": 4,
+      "telefone": "3215-5541"
+    },
+    {
+      "idGabinete": 542,
+      "anexo": 4,
+      "telefone": "3215-5542"
+    },
+    {
+      "idGabinete": 543,
+      "anexo": 4,
+      "telefone": "3215-5543"
+    },
+    {
+      "idGabinete": 544,
+      "anexo": 4,
+      "telefone": "3215-5544"
+    },
+    {
+      "idGabinete": 545,
+      "anexo": 4,
+      "telefone": "3215-5545"
+    },
+    {
+      "idGabinete": 546,
+      "anexo": 4,
+      "telefone": "3215-5546"
+    },
+    {
+      "idGabinete": 548,
+      "anexo": 4,
+      "telefone": "3215-5548"
+    },
+    {
+      "idGabinete": 550,
+      "anexo": 4,
+      "telefone": "3215-5550"
+    },
+    {
+      "idGabinete": 552,
+      "anexo": 4,
+      "telefone": "3215-5552"
+    },
+    {
+      "idGabinete": 554,
+      "anexo": 4,
+      "telefone": "3215-5554"
+    },
+    {
+      "idGabinete": 556,
+      "anexo": 4,
+      "telefone": "3215-5556"
+    },
+    {
+      "idGabinete": 558,
+      "anexo": 4,
+      "telefone": "3215-5558"
+    },
+    {
+      "idGabinete": 560,
+      "anexo": 4,
+      "telefone": "3215-5560"
+    },
+    {
+      "idGabinete": 562,
+      "anexo": 4,
+      "telefone": "3215-5562"
+    },
+    {
+      "idGabinete": 565,
+      "anexo": 3,
+      "telefone": "3215-5565"
+    },
+    {
+      "idGabinete": 566,
+      "anexo": 3,
+      "telefone": "3215-5566"
+    },
+    {
+      "idGabinete": 567,
+      "anexo": 3,
+      "telefone": "32155567"
+    },
+    {
+      "idGabinete": 568,
+      "anexo": 3,
+      "telefone": "3215-5568"
+    },
+    {
+      "idGabinete": 569,
+      "anexo": 3,
+      "telefone": "3215-5569"
+    },
+    {
+      "idGabinete": 570,
+      "anexo": 3,
+      "telefone": "3215-5570"
+    },
+    {
+      "idGabinete": 571,
+      "anexo": 3,
+      "telefone": "3215-5571"
+    },
+    {
+      "idGabinete": 572,
+      "anexo": 3,
+      "telefone": "3215-5572"
+    },
+    {
+      "idGabinete": 573,
+      "anexo": 3,
+      "telefone": "3215-5573"
+    },
+    {
+      "idGabinete": 574,
+      "anexo": 3,
+      "telefone": "3215-5574"
+    },
+    {
+      "idGabinete": 575,
+      "anexo": 3,
+      "telefone": "3215-5575"
+    },
+    {
+      "idGabinete": 576,
+      "anexo": 3,
+      "telefone": "3215-5576"
+    },
+    {
+      "idGabinete": 577,
+      "anexo": 3,
+      "telefone": "3215-5577"
+    },
+    {
+      "idGabinete": 578,
+      "anexo": 3,
+      "telefone": "3215-5578"
+    },
+    {
+      "idGabinete": 579,
+      "anexo": 3,
+      "telefone": "3215-5579"
+    },
+    {
+      "idGabinete": 580,
+      "anexo": 3,
+      "telefone": "3215-5580"
+    },
+    {
+      "idGabinete": 581,
+      "anexo": 3,
+      "telefone": "3215-5581"
+    },
+    {
+      "idGabinete": 582,
+      "anexo": 3,
+      "telefone": "3215-5582"
+    },
+    {
+      "idGabinete": 583,
+      "anexo": 3,
+      "telefone": "3215-5583"
+    },
+    {
+      "idGabinete": 584,
+      "anexo": 3,
+      "telefone": "3215-5584"
+    },
+    {
+      "idGabinete": 585,
+      "anexo": 3,
+      "telefone": "3215-5585"
+    },
+    {
+      "idGabinete": 586,
+      "anexo": 3,
+      "telefone": "32155586"
+    },
+    {
+      "idGabinete": 587,
+      "anexo": 3,
+      "telefone": "3215-5587"
+    },
+    {
+      "idGabinete": 601,
+      "anexo": 4,
+      "telefone": "3215-5601"
+    },
+    {
+      "idGabinete": 602,
+      "anexo": 4,
+      "telefone": "3215-5602"
+    },
+    {
+      "idGabinete": 603,
+      "anexo": 4,
+      "telefone": "3215-5603"
+    },
+    {
+      "idGabinete": 604,
+      "anexo": 4,
+      "telefone": "3215-5604"
+    },
+    {
+      "idGabinete": 605,
+      "anexo": 4,
+      "telefone": "3215-5605"
+    },
+    {
+      "idGabinete": 606,
+      "anexo": 4,
+      "telefone": "3215-5606"
+    },
+    {
+      "idGabinete": 607,
+      "anexo": 4,
+      "telefone": "3215-5607"
+    },
+    {
+      "idGabinete": 608,
+      "anexo": 4,
+      "telefone": "3215-5608"
+    },
+    {
+      "idGabinete": 609,
+      "anexo": 4,
+      "telefone": "3215-5609"
+    },
+    {
+      "idGabinete": 610,
+      "anexo": 4,
+      "telefone": "3215-5610"
+    },
+    {
+      "idGabinete": 611,
+      "anexo": 4,
+      "telefone": "3215-5611"
+    },
+    {
+      "idGabinete": 612,
+      "anexo": 4,
+      "telefone": "3215-5612"
+    },
+    {
+      "idGabinete": 613,
+      "anexo": 4,
+      "telefone": "3215-5613"
+    },
+    {
+      "idGabinete": 614,
+      "anexo": 4,
+      "telefone": "3215-5614"
+    },
+    {
+      "idGabinete": 615,
+      "anexo": 4,
+      "telefone": "3215-5615"
+    },
+    {
+      "idGabinete": 616,
+      "anexo": 4,
+      "telefone": "3215-5616"
+    },
+    {
+      "idGabinete": 617,
+      "anexo": 4,
+      "telefone": "3215-5617"
+    },
+    {
+      "idGabinete": 618,
+      "anexo": 4,
+      "telefone": "3215-5618"
+    },
+    {
+      "idGabinete": 619,
+      "anexo": 4,
+      "telefone": "3215-5619"
+    },
+    {
+      "idGabinete": 620,
+      "anexo": 4,
+      "telefone": "3215-5620"
+    },
+    {
+      "idGabinete": 621,
+      "anexo": 4,
+      "telefone": "3215-5621"
+    },
+    {
+      "idGabinete": 622,
+      "anexo": 4,
+      "telefone": "3215-5622"
+    },
+    {
+      "idGabinete": 623,
+      "anexo": 4,
+      "telefone": "3215-5623"
+    },
+    {
+      "idGabinete": 624,
+      "anexo": 4,
+      "telefone": "3215-5624"
+    },
+    {
+      "idGabinete": 625,
+      "anexo": 4,
+      "telefone": "3215-5625"
+    },
+    {
+      "idGabinete": 626,
+      "anexo": 4,
+      "telefone": "3215-5626"
+    },
+    {
+      "idGabinete": 627,
+      "anexo": 4,
+      "telefone": "3215-5627"
+    },
+    {
+      "idGabinete": 628,
+      "anexo": 4,
+      "telefone": "3215-5628"
+    },
+    {
+      "idGabinete": 629,
+      "anexo": 4,
+      "telefone": "3215-5629"
+    },
+    {
+      "idGabinete": 630,
+      "anexo": 4,
+      "telefone": "3215-5630"
+    },
+    {
+      "idGabinete": 631,
+      "anexo": 4,
+      "telefone": "3215-5631"
+    },
+    {
+      "idGabinete": 632,
+      "anexo": 4,
+      "telefone": "3215-5632"
+    },
+    {
+      "idGabinete": 633,
+      "anexo": 4,
+      "telefone": "3215-5633"
+    },
+    {
+      "idGabinete": 634,
+      "anexo": 4,
+      "telefone": "3215-5634"
+    },
+    {
+      "idGabinete": 635,
+      "anexo": 4,
+      "telefone": "3215-5635"
+    },
+    {
+      "idGabinete": 636,
+      "anexo": 4,
+      "telefone": "3215-5636"
+    },
+    {
+      "idGabinete": 637,
+      "anexo": 4,
+      "telefone": "3215-5637"
+    },
+    {
+      "idGabinete": 638,
+      "anexo": 4,
+      "telefone": "3215-5638"
+    },
+    {
+      "idGabinete": 639,
+      "anexo": 4,
+      "telefone": "3215-5639"
+    },
+    {
+      "idGabinete": 640,
+      "anexo": 4,
+      "telefone": "3215-5640"
+    },
+    {
+      "idGabinete": 641,
+      "anexo": 4,
+      "telefone": "3215-5641"
+    },
+    {
+      "idGabinete": 642,
+      "anexo": 4,
+      "telefone": "3215-5642"
+    },
+    {
+      "idGabinete": 643,
+      "anexo": 4,
+      "telefone": "3215-5643"
+    },
+    {
+      "idGabinete": 644,
+      "anexo": 4,
+      "telefone": "3215-5644"
+    },
+    {
+      "idGabinete": 645,
+      "anexo": 4,
+      "telefone": "3215-5645"
+    },
+    {
+      "idGabinete": 646,
+      "anexo": 4,
+      "telefone": "3215-5646"
+    },
+    {
+      "idGabinete": 648,
+      "anexo": 4,
+      "telefone": "3215-5648"
+    },
+    {
+      "idGabinete": 650,
+      "anexo": 4,
+      "telefone": "3215-5650"
+    },
+    {
+      "idGabinete": 652,
+      "anexo": 4,
+      "telefone": "3215-5652"
+    },
+    {
+      "idGabinete": 654,
+      "anexo": 4,
+      "telefone": "3215-5654"
+    },
+    {
+      "idGabinete": 656,
+      "anexo": 4,
+      "telefone": "3215-5656"
+    },
+    {
+      "idGabinete": 658,
+      "anexo": 4,
+      "telefone": "3215-5658"
+    },
+    {
+      "idGabinete": 660,
+      "anexo": 4,
+      "telefone": "3215-5660"
+    },
+    {
+      "idGabinete": 662,
+      "anexo": 4,
+      "telefone": "3215-5662"
+    },
+    {
+      "idGabinete": 701,
+      "anexo": 4,
+      "telefone": "3215-5701"
+    },
+    {
+      "idGabinete": 702,
+      "anexo": 4,
+      "telefone": "3215-5702"
+    },
+    {
+      "idGabinete": 703,
+      "anexo": 4,
+      "telefone": "3215-5703"
+    },
+    {
+      "idGabinete": 704,
+      "anexo": 4,
+      "telefone": "3215-5704"
+    },
+    {
+      "idGabinete": 705,
+      "anexo": 4,
+      "telefone": "3215-5705"
+    },
+    {
+      "idGabinete": 706,
+      "anexo": 4,
+      "telefone": "3215-5706"
+    },
+    {
+      "idGabinete": 707,
+      "anexo": 4,
+      "telefone": "3215-5707"
+    },
+    {
+      "idGabinete": 708,
+      "anexo": 4,
+      "telefone": "3215-5708"
+    },
+    {
+      "idGabinete": 709,
+      "anexo": 4,
+      "telefone": "3215-5709"
+    },
+    {
+      "idGabinete": 710,
+      "anexo": 4,
+      "telefone": "3215-5710"
+    },
+    {
+      "idGabinete": 711,
+      "anexo": 4,
+      "telefone": "3215-5711"
+    },
+    {
+      "idGabinete": 712,
+      "anexo": 4,
+      "telefone": "3215-5712"
+    },
+    {
+      "idGabinete": 713,
+      "anexo": 4,
+      "telefone": "3215-5713"
+    },
+    {
+      "idGabinete": 714,
+      "anexo": 4,
+      "telefone": "3215-5714"
+    },
+    {
+      "idGabinete": 715,
+      "anexo": 4,
+      "telefone": "3215-5715"
+    },
+    {
+      "idGabinete": 716,
+      "anexo": 4,
+      "telefone": "3215-5716"
+    },
+    {
+      "idGabinete": 717,
+      "anexo": 4,
+      "telefone": "3215-5717"
+    },
+    {
+      "idGabinete": 718,
+      "anexo": 4,
+      "telefone": "3215-5718"
+    },
+    {
+      "idGabinete": 719,
+      "anexo": 4,
+      "telefone": "3215-5719"
+    },
+    {
+      "idGabinete": 720,
+      "anexo": 4,
+      "telefone": "3215-5720"
+    },
+    {
+      "idGabinete": 721,
+      "anexo": 4,
+      "telefone": "3215-5721"
+    },
+    {
+      "idGabinete": 722,
+      "anexo": 4,
+      "telefone": "3215-5722"
+    },
+    {
+      "idGabinete": 723,
+      "anexo": 4,
+      "telefone": "3215-5723"
+    },
+    {
+      "idGabinete": 724,
+      "anexo": 4,
+      "telefone": "3215-5724"
+    },
+    {
+      "idGabinete": 725,
+      "anexo": 4,
+      "telefone": "3215-5725"
+    },
+    {
+      "idGabinete": 726,
+      "anexo": 4,
+      "telefone": "3215-5726"
+    },
+    {
+      "idGabinete": 727,
+      "anexo": 4,
+      "telefone": "3215-5727"
+    },
+    {
+      "idGabinete": 728,
+      "anexo": 4,
+      "telefone": "3215-5728"
+    },
+    {
+      "idGabinete": 729,
+      "anexo": 4,
+      "telefone": "3215-5729"
+    },
+    {
+      "idGabinete": 730,
+      "anexo": 4,
+      "telefone": "3215-5730"
+    },
+    {
+      "idGabinete": 732,
+      "anexo": 4,
+      "telefone": "3215-5732"
+    },
+    {
+      "idGabinete": 733,
+      "anexo": 4,
+      "telefone": "3215-5733"
+    },
+    {
+      "idGabinete": 734,
+      "anexo": 4,
+      "telefone": "3215-5734"
+    },
+    {
+      "idGabinete": 735,
+      "anexo": 4,
+      "telefone": "3215-5735"
+    },
+    {
+      "idGabinete": 736,
+      "anexo": 4,
+      "telefone": "3215-5736"
+    },
+    {
+      "idGabinete": 737,
+      "anexo": 4,
+      "telefone": "3215-5737"
+    },
+    {
+      "idGabinete": 738,
+      "anexo": 4,
+      "telefone": "3215-5738"
+    },
+    {
+      "idGabinete": 739,
+      "anexo": 4,
+      "telefone": "3215-5739"
+    },
+    {
+      "idGabinete": 740,
+      "anexo": 4,
+      "telefone": "3215-5740"
+    },
+    {
+      "idGabinete": 741,
+      "anexo": 4,
+      "telefone": "3215-5741"
+    },
+    {
+      "idGabinete": 742,
+      "anexo": 4,
+      "telefone": "3215-5742"
+    },
+    {
+      "idGabinete": 743,
+      "anexo": 4,
+      "telefone": "3215-5743"
+    },
+    {
+      "idGabinete": 744,
+      "anexo": 4,
+      "telefone": "3215-5744"
+    },
+    {
+      "idGabinete": 745,
+      "anexo": 4,
+      "telefone": "3215-5745"
+    },
+    {
+      "idGabinete": 746,
+      "anexo": 4,
+      "telefone": "3215-5746"
+    },
+    {
+      "idGabinete": 748,
+      "anexo": 4,
+      "telefone": "3215-5748"
+    },
+    {
+      "idGabinete": 750,
+      "anexo": 4,
+      "telefone": "3215-5750"
+    },
+    {
+      "idGabinete": 752,
+      "anexo": 4,
+      "telefone": "3215-5752"
+    },
+    {
+      "idGabinete": 754,
+      "anexo": 4,
+      "telefone": "3215-5754"
+    },
+    {
+      "idGabinete": 756,
+      "anexo": 4,
+      "telefone": "3215-5756"
+    },
+    {
+      "idGabinete": 758,
+      "anexo": 4,
+      "telefone": "3215-5758"
+    },
+    {
+      "idGabinete": 760,
+      "anexo": 4,
+      "telefone": "3215-5760"
+    },
+    {
+      "idGabinete": 762,
+      "anexo": 4,
+      "telefone": "3215-5762"
+    },
+    {
+      "idGabinete": 801,
+      "anexo": 4,
+      "telefone": "3215-5801"
+    },
+    {
+      "idGabinete": 802,
+      "anexo": 4,
+      "telefone": "3215-5802"
+    },
+    {
+      "idGabinete": 803,
+      "anexo": 4,
+      "telefone": "3215-5803"
+    },
+    {
+      "idGabinete": 804,
+      "anexo": 4,
+      "telefone": "3215-5804"
+    },
+    {
+      "idGabinete": 805,
+      "anexo": 4,
+      "telefone": "3215-5805"
+    },
+    {
+      "idGabinete": 806,
+      "anexo": 4,
+      "telefone": "3215-5806"
+    },
+    {
+      "idGabinete": 807,
+      "anexo": 4,
+      "telefone": "3215-5807"
+    },
+    {
+      "idGabinete": 808,
+      "anexo": 4,
+      "telefone": "3215-5808"
+    },
+    {
+      "idGabinete": 809,
+      "anexo": 4,
+      "telefone": "3215-5809"
+    },
+    {
+      "idGabinete": 810,
+      "anexo": 4,
+      "telefone": "3215-5810"
+    },
+    {
+      "idGabinete": 811,
+      "anexo": 4,
+      "telefone": "3215-5811"
+    },
+    {
+      "idGabinete": 812,
+      "anexo": 4,
+      "telefone": "3215-5812"
+    },
+    {
+      "idGabinete": 813,
+      "anexo": 4,
+      "telefone": "3215-5813"
+    },
+    {
+      "idGabinete": 814,
+      "anexo": 4,
+      "telefone": "3215-5814"
+    },
+    {
+      "idGabinete": 815,
+      "anexo": 4,
+      "telefone": "3215-5815"
+    },
+    {
+      "idGabinete": 816,
+      "anexo": 4,
+      "telefone": "3215-5816"
+    },
+    {
+      "idGabinete": 817,
+      "anexo": 4,
+      "telefone": "3215-5817"
+    },
+    {
+      "idGabinete": 818,
+      "anexo": 4,
+      "telefone": "3215-5818"
+    },
+    {
+      "idGabinete": 819,
+      "anexo": 4,
+      "telefone": "3215-5819"
+    },
+    {
+      "idGabinete": 820,
+      "anexo": 4,
+      "telefone": "3215-5820"
+    },
+    {
+      "idGabinete": 821,
+      "anexo": 4,
+      "telefone": "3215-5821"
+    },
+    {
+      "idGabinete": 822,
+      "anexo": 4,
+      "telefone": "3215-5822"
+    },
+    {
+      "idGabinete": 823,
+      "anexo": 4,
+      "telefone": "3215-5823"
+    },
+    {
+      "idGabinete": 824,
+      "anexo": 4,
+      "telefone": "3215-5824"
+    },
+    {
+      "idGabinete": 825,
+      "anexo": 4,
+      "telefone": "3215-5825"
+    },
+    {
+      "idGabinete": 826,
+      "anexo": 4,
+      "telefone": "3215-5826"
+    },
+    {
+      "idGabinete": 827,
+      "anexo": 4,
+      "telefone": "3215-5827"
+    },
+    {
+      "idGabinete": 828,
+      "anexo": 4,
+      "telefone": "3215-5828"
+    },
+    {
+      "idGabinete": 829,
+      "anexo": 4,
+      "telefone": "3215-5829"
+    },
+    {
+      "idGabinete": 830,
+      "anexo": 4,
+      "telefone": "3215-5830"
+    },
+    {
+      "idGabinete": 831,
+      "anexo": 4,
+      "telefone": "3215-5831"
+    },
+    {
+      "idGabinete": 832,
+      "anexo": 4,
+      "telefone": "3215-5832"
+    },
+    {
+      "idGabinete": 833,
+      "anexo": 4,
+      "telefone": "3215-5833"
+    },
+    {
+      "idGabinete": 834,
+      "anexo": 4,
+      "telefone": "3215-5834"
+    },
+    {
+      "idGabinete": 835,
+      "anexo": 4,
+      "telefone": "3215-5835"
+    },
+    {
+      "idGabinete": 836,
+      "anexo": 4,
+      "telefone": "3215-5836"
+    },
+    {
+      "idGabinete": 837,
+      "anexo": 4,
+      "telefone": "3215-5837"
+    },
+    {
+      "idGabinete": 838,
+      "anexo": 4,
+      "telefone": "3215-5838"
+    },
+    {
+      "idGabinete": 839,
+      "anexo": 4,
+      "telefone": "3215-5839"
+    },
+    {
+      "idGabinete": 840,
+      "anexo": 4,
+      "telefone": "3215-5840"
+    },
+    {
+      "idGabinete": 841,
+      "anexo": 4,
+      "telefone": "3215-5841"
+    },
+    {
+      "idGabinete": 842,
+      "anexo": 4,
+      "telefone": "3215-5842"
+    },
+    {
+      "idGabinete": 843,
+      "anexo": 4,
+      "telefone": "3215-5843"
+    },
+    {
+      "idGabinete": 844,
+      "anexo": 4,
+      "telefone": "3215-5844"
+    },
+    {
+      "idGabinete": 845,
+      "anexo": 4,
+      "telefone": "3215-5845"
+    },
+    {
+      "idGabinete": 846,
+      "anexo": 4,
+      "telefone": "3215-5846"
+    },
+    {
+      "idGabinete": 848,
+      "anexo": 4,
+      "telefone": "3215-5848"
+    },
+    {
+      "idGabinete": 850,
+      "anexo": 4,
+      "telefone": "3215-5850"
+    },
+    {
+      "idGabinete": 852,
+      "anexo": 4,
+      "telefone": "3215-5852"
+    },
+    {
+      "idGabinete": 854,
+      "anexo": 4,
+      "telefone": "3215-5854"
+    },
+    {
+      "idGabinete": 856,
+      "anexo": 4,
+      "telefone": "3215-5856"
+    },
+    {
+      "idGabinete": 858,
+      "anexo": 4,
+      "telefone": "3215-5858"
+    },
+    {
+      "idGabinete": 860,
+      "anexo": 4,
+      "telefone": "3215-5860"
+    },
+    {
+      "idGabinete": 862,
+      "anexo": 4,
+      "telefone": "3215-5862"
+    },
+    {
+      "idGabinete": 901,
+      "anexo": 4,
+      "telefone": "3215-5901"
+    },
+    {
+      "idGabinete": 902,
+      "anexo": 4,
+      "telefone": "3215-5902"
+    },
+    {
+      "idGabinete": 903,
+      "anexo": 4,
+      "telefone": "3215-5903"
+    },
+    {
+      "idGabinete": 904,
+      "anexo": 4,
+      "telefone": "3215-5904"
+    },
+    {
+      "idGabinete": 905,
+      "anexo": 4,
+      "telefone": "3215-5905"
+    },
+    {
+      "idGabinete": 906,
+      "anexo": 4,
+      "telefone": "3215-5906"
+    },
+    {
+      "idGabinete": 907,
+      "anexo": 4,
+      "telefone": "3215-5907"
+    },
+    {
+      "idGabinete": 908,
+      "anexo": 4,
+      "telefone": "3215-5908"
+    },
+    {
+      "idGabinete": 909,
+      "anexo": 4,
+      "telefone": "3215-5909"
+    },
+    {
+      "idGabinete": 910,
+      "anexo": 4,
+      "telefone": "3215-5910"
+    },
+    {
+      "idGabinete": 911,
+      "anexo": 4,
+      "telefone": "3215-5911"
+    },
+    {
+      "idGabinete": 912,
+      "anexo": 4,
+      "telefone": "3215-5912"
+    },
+    {
+      "idGabinete": 913,
+      "anexo": 4,
+      "telefone": "3215-5913"
+    },
+    {
+      "idGabinete": 914,
+      "anexo": 4,
+      "telefone": "3215-5914"
+    },
+    {
+      "idGabinete": 915,
+      "anexo": 4,
+      "telefone": "3215-5915"
+    },
+    {
+      "idGabinete": 916,
+      "anexo": 4,
+      "telefone": "3215-5916"
+    },
+    {
+      "idGabinete": 917,
+      "anexo": 4,
+      "telefone": "3215-5917"
+    },
+    {
+      "idGabinete": 918,
+      "anexo": 4,
+      "telefone": "3215-5918"
+    },
+    {
+      "idGabinete": 919,
+      "anexo": 4,
+      "telefone": "3215-5919"
+    },
+    {
+      "idGabinete": 920,
+      "anexo": 4,
+      "telefone": "3215-5920"
+    },
+    {
+      "idGabinete": 921,
+      "anexo": 4,
+      "telefone": "3215-5921"
+    },
+    {
+      "idGabinete": 922,
+      "anexo": 4,
+      "telefone": "3215-5922"
+    },
+    {
+      "idGabinete": 923,
+      "anexo": 4,
+      "telefone": "3215-5923"
+    },
+    {
+      "idGabinete": 924,
+      "anexo": 4,
+      "telefone": "3215-5924"
+    },
+    {
+      "idGabinete": 925,
+      "anexo": 4,
+      "telefone": "3215-5925"
+    },
+    {
+      "idGabinete": 926,
+      "anexo": 4,
+      "telefone": "3215-5926"
+    },
+    {
+      "idGabinete": 927,
+      "anexo": 4,
+      "telefone": "3215-5927"
+    },
+    {
+      "idGabinete": 928,
+      "anexo": 4,
+      "telefone": "3215-5928"
+    },
+    {
+      "idGabinete": 929,
+      "anexo": 4,
+      "telefone": "3215-5929"
+    },
+    {
+      "idGabinete": 930,
+      "anexo": 4,
+      "telefone": "3215-5930"
+    },
+    {
+      "idGabinete": 931,
+      "anexo": 4,
+      "telefone": "3215-5931"
+    },
+    {
+      "idGabinete": 932,
+      "anexo": 4,
+      "telefone": "3215-5932"
+    },
+    {
+      "idGabinete": 933,
+      "anexo": 4,
+      "telefone": "3215-5933"
+    },
+    {
+      "idGabinete": 934,
+      "anexo": 4,
+      "telefone": "3215-5934"
+    },
+    {
+      "idGabinete": 935,
+      "anexo": 4,
+      "telefone": "3215-5935"
+    },
+    {
+      "idGabinete": 936,
+      "anexo": 4,
+      "telefone": "3215-5936"
+    },
+    {
+      "idGabinete": 937,
+      "anexo": 4,
+      "telefone": "3215-5937"
+    },
+    {
+      "idGabinete": 938,
+      "anexo": 4,
+      "telefone": "3215-5938"
+    },
+    {
+      "idGabinete": 939,
+      "anexo": 4,
+      "telefone": "3215-5939"
+    },
+    {
+      "idGabinete": 940,
+      "anexo": 4,
+      "telefone": "3215-5940"
+    },
+    {
+      "idGabinete": 941,
+      "anexo": 4,
+      "telefone": "3215-5941"
+    },
+    {
+      "idGabinete": 942,
+      "anexo": 4,
+      "telefone": "3215-5942"
+    },
+    {
+      "idGabinete": 943,
+      "anexo": 4,
+      "telefone": "3215-5943"
+    },
+    {
+      "idGabinete": 944,
+      "anexo": 4,
+      "telefone": "3215-5944"
+    },
+    {
+      "idGabinete": 945,
+      "anexo": 4,
+      "telefone": "3215-5945"
+    },
+    {
+      "idGabinete": 946,
+      "anexo": 4,
+      "telefone": "3215-5946"
+    },
+    {
+      "idGabinete": 948,
+      "anexo": 4,
+      "telefone": "3215-5948"
+    },
+    {
+      "idGabinete": 950,
+      "anexo": 4,
+      "telefone": "3215-5950"
+    },
+    {
+      "idGabinete": 952,
+      "anexo": 4,
+      "telefone": "3215-5952"
+    },
+    {
+      "idGabinete": 954,
+      "anexo": 4,
+      "telefone": "3215-5954"
+    },
+    {
+      "idGabinete": 956,
+      "anexo": 4,
+      "telefone": "3215-5956"
+    },
+    {
+      "idGabinete": 958,
+      "anexo": 4,
+      "telefone": "3215-5958"
+    },
+    {
+      "idGabinete": 960,
+      "anexo": 4,
+      "telefone": "3215-5960"
+    },
+    {
+      "idGabinete": 962,
+      "anexo": 4,
+      "telefone": "3215-5962"
+    }
+  ]
+}

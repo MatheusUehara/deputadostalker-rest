@@ -1,0 +1,945 @@
+{
+  "error": false,
+  "comissoes": [
+    {
+      "idOrgao": 2001,
+      "siglaComissao": "CAPADR",
+      "nomeComissao": "Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural"
+    },
+    {
+      "idOrgao": 2002,
+      "siglaComissao": "CCTCI",
+      "nomeComissao": "Comissão de Ciência e Tecnologia, Comunicação e Informática"
+    },
+    {
+      "idOrgao": 2003,
+      "siglaComissao": "CCJC",
+      "nomeComissao": "Comissão de Constituição e Justiça e de Cidadania"
+    },
+    {
+      "idOrgao": 2004,
+      "siglaComissao": "CDC",
+      "nomeComissao": "Comissão de Defesa do Consumidor"
+    },
+    {
+      "idOrgao": 2006,
+      "siglaComissao": "CDU",
+      "nomeComissao": "Comissão de Desenvolvimento Urbano"
+    },
+    {
+      "idOrgao": 2007,
+      "siglaComissao": "CDHM",
+      "nomeComissao": "Comissão de Direitos Humanos e Minorias"
+    },
+    {
+      "idOrgao": 2008,
+      "siglaComissao": "CDEICS",
+      "nomeComissao": "Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços"
+    },
+    {
+      "idOrgao": 2009,
+      "siglaComissao": "CE",
+      "nomeComissao": "Comissão de Educação"
+    },
+    {
+      "idOrgao": 2010,
+      "siglaComissao": "CFT",
+      "nomeComissao": "Comissão de Finanças e Tributação"
+    },
+    {
+      "idOrgao": 2011,
+      "siglaComissao": "CFFC",
+      "nomeComissao": "Comissão de Fiscalização Financeira e Controle"
+    },
+    {
+      "idOrgao": 2012,
+      "siglaComissao": "CME",
+      "nomeComissao": "Comissão de Minas e Energia"
+    },
+    {
+      "idOrgao": 2014,
+      "siglaComissao": "CSSF",
+      "nomeComissao": "Comissão de Seguridade Social e Família"
+    },
+    {
+      "idOrgao": 2015,
+      "siglaComissao": "CTASP",
+      "nomeComissao": "Comissão de Trabalho, de Administração e Serviço Público"
+    },
+    {
+      "idOrgao": 2016,
+      "siglaComissao": "CVT",
+      "nomeComissao": "Comissão de Viação e Transportes"
+    },
+    {
+      "idOrgao": 2017,
+      "siglaComissao": "CINDRA",
+      "nomeComissao": "Comissão de Integração Nacional, Desenvolvimento Regional e da Amazônia"
+    },
+    {
+      "idOrgao": 2018,
+      "siglaComissao": "CREDN",
+      "nomeComissao": "Comissão de Relações Exteriores e de Defesa Nacional"
+    },
+    {
+      "idOrgao": 5418,
+      "siglaComissao": "MESA",
+      "nomeComissao": "Mesa Diretora da Câmara dos Deputados"
+    },
+    {
+      "idOrgao": 5438,
+      "siglaComissao": "CLP",
+      "nomeComissao": "Comissão de Legislação Participativa"
+    },
+    {
+      "idOrgao": 5503,
+      "siglaComissao": "CSPCCO",
+      "nomeComissao": "Comissão de Segurança Pública e Combate ao Crime Organizado"
+    },
+    {
+      "idOrgao": 5971,
+      "siglaComissao": "COETICA",
+      "nomeComissao": "Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados"
+    },
+    {
+      "idOrgao": 5973,
+      "siglaComissao": "MERCOSUL",
+      "nomeComissao": "Representação Brasileira no Parlamento do Mercosul."
+    },
+    {
+      "idOrgao": 6066,
+      "siglaComissao": "CTUR",
+      "nomeComissao": "Comissão de Turismo"
+    },
+    {
+      "idOrgao": 6137,
+      "siglaComissao": "PROPAR",
+      "nomeComissao": "Procuradoria Parlamentar"
+    },
+    {
+      "idOrgao": 6138,
+      "siglaComissao": "OUVIDOR",
+      "nomeComissao": "Ouvidoria Parlamentar"
+    },
+    {
+      "idOrgao": 6174,
+      "siglaComissao": "CMADS",
+      "nomeComissao": "Comissão de Meio Ambiente e Desenvolvimento Sustentável"
+    },
+    {
+      "idOrgao": 6722,
+      "siglaComissao": "CMMC",
+      "nomeComissao": "Comissão Mista Permanente sobre Mudanças Climáticas - CMMC"
+    },
+    {
+      "idOrgao": 6855,
+      "siglaComissao": "CMO",
+      "nomeComissao": "Comissão Mista de Planos, Orçamentos Públicos e Fiscalização"
+    },
+    {
+      "idOrgao": 6935,
+      "siglaComissao": "PRMULHER",
+      "nomeComissao": "Procuradoria da Mulher (Resolução da Câmara dos Deputados nº 31, de 2013, que dispõe sobre a Secretaria da Mulher)"
+    },
+    {
+      "idOrgao": 536996,
+      "siglaComissao": "CCULT",
+      "nomeComissao": "Comissão de Cultura"
+    },
+    {
+      "idOrgao": 537020,
+      "siglaComissao": "CEDES",
+      "nomeComissao": "Centro de Estudos e Debates Estratégicos"
+    },
+    {
+      "idOrgao": 537053,
+      "siglaComissao": "CORREGE",
+      "nomeComissao": "Corregedoria Parlamentar"
+    },
+    {
+      "idOrgao": 537148,
+      "siglaComissao": "CDMULHER",
+      "nomeComissao": "Coordenadoria dos Direitos da Mulher (Resolução da Câmara dos Deputados nº 31, de 2013, que dispõe sobre a Secretaria da Mulher)"
+    },
+    {
+      "idOrgao": 537236,
+      "siglaComissao": "CESPO",
+      "nomeComissao": "Comissão do Esporte"
+    },
+    {
+      "idOrgao": 537239,
+      "siglaComissao": "SEMULHER",
+      "nomeComissao": "Secretaria da Mulher"
+    },
+    {
+      "idOrgao": 537332,
+      "siglaComissao": "PEC18207",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 182, de 2007, do Senado Federal, que “altera os arts. 17, 46 e 55 da Constituição Federal, para assegurar aos partidos políticos a titularidade dos mandatos parlamentares e estabelecer a perda dos mandatos dos membros do Poder Legislativo e do Poder Executivo que se desfiliarem dos partidos pelos quais forem eleitos” (PEC da Fidelidade Partidária), e apensadas"
+    },
+    {
+      "idOrgao": 537337,
+      "siglaComissao": "CPIPETRO",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar a prática de atos ilícitos e irregulares no âmbito da empresa Petróleo Brasileiro S/A (PETROBRAS), entre os anos de 2005 e 2015, relacionados a superfaturamento e gestão temerária na construção de refinarias no Brasil; à constituição de empresas subsidiárias e sociedades de propósito específico pela Petrobras com o fim de praticar atos ilícitos; ao superfaturamento e gestão temerária na construção e afretamento de navios de transporte, navios-plataforma e navios-sonda; a irregularidades na operação da companhia Sete Brasil e na venda de ativos da Petrobras na África"
+    },
+    {
+      "idOrgao": 537340,
+      "siglaComissao": "PL241207",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.412, de 2007, do Sr. Regis de Oliveira, que \"dispõe sobre a execução administrativa da Dívida Ativa da União, dos Estados, do Distrito Federal, dos Municípios, de suas respectivas autarquias e fundações públicas, e dá outras providências\" (define critérios para o processamento administrativo das execuções fiscais - altera a Lei nº 8.397, de 1992 e revoga a Lei nº 6.830, de 1980) e apensados"
+    },
+    {
+      "idOrgao": 537342,
+      "siglaComissao": "CESEGPUB",
+      "nomeComissao": "Comissão Especial destinada a elaborar proposta de Lei Orgânica da Segurança Pública no Brasil"
+    },
+    {
+      "idOrgao": 537343,
+      "siglaComissao": "CEREFPOL",
+      "nomeComissao": "Comissão Especial destinada a efetuar estudo e apresentar propostas com relação às matérias infraconstitucionais da Reforma Política"
+    },
+    {
+      "idOrgao": 537345,
+      "siglaComissao": "PL157211",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1572, de 2011, do Sr. Vicente Candido, que \"institui o Código Comercial\""
+    },
+    {
+      "idOrgao": 537347,
+      "siglaComissao": "PEC07011",
+      "nomeComissao": "Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 70-A, de 2011, do Senado Federal, que \"altera o procedimento de apreciação das medidas provisórias pelo Congresso Nacional\""
+    },
+    {
+      "idOrgao": 537348,
+      "siglaComissao": "PL658313",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6583, de 2013, do Sr. Anderson Ferreira, que \"dispõe sobre o Estatuto da Família e dá outras providências\", e apensado"
+    },
+    {
+      "idOrgao": 537349,
+      "siglaComissao": "PL423812",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 4.238, de 2012, do Senado Federal, que \"altera o art. 19 da Lei nº 7.102, de 20 de junho de 1983, para dispor sobre o piso nacional de salário dos empregados em empresas particulares que explorem serviços de vigilância e transporte de valores\" (o piso varia de oitocentos reais, grau mínimo, a mil e cem reais, grau máximo), e apensados"
+    },
+    {
+      "idOrgao": 537350,
+      "siglaComissao": "CEXTRRIO",
+      "nomeComissao": "Comissão Externa destinada a acompanhar todos os atos, fatos relevantes, normas e procedimentos referentes às obras do Projeto de Integração do Rio São Francisco com as Bacias Hidrográficas do Nordeste Setentrional, popularmente conhecida como \"Transposição do Rio São Francisco\", bem como o Programa de Revitalização da Bacia Hidrográfica do Rio São Francisco"
+    },
+    {
+      "idOrgao": 537351,
+      "siglaComissao": "CEXCANC",
+      "nomeComissao": "Comissão Externa destinada a fazer levantamento in loco bem como acompanhar e fiscalizar os fatos relativos ao cancelamento da construção das refinarias Premium I e Premium II, respectivamente nos estados do Maranhão e do Ceará."
+    },
+    {
+      "idOrgao": 537352,
+      "siglaComissao": "PL003711",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 37, de 2011, do Sr. Welinton Prado, que \"dispõe sobre o regime de aproveitamento das substâncias minerais, com exceção dos minérios nucleares, petróleo, gás natural e outros hidrocarbonetos fluidos e das substâncias minerais submetidas ao regime de licenciamento de que trata o inciso III do art. 2º do Decreto-lei nº 227, de 28 de fevereiro de 1967\", e apensados (MINERAÇÃO)"
+    },
+    {
+      "idOrgao": 537356,
+      "siglaComissao": "PEC01911",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 19-A, de 2011, do Sr. Wilson Filho e outros, que \"altera o art. 40 do Ato das Disposições Constitucionais Transitórias para estabelecer a criação da Zona Franca do Semiárido Nordestino\""
+    },
+    {
+      "idOrgao": 537363,
+      "siglaComissao": "PEC21500",
+      "nomeComissao": "Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 215-A, de 2000, do Sr. Almir Sá e outros, que \"acrescenta o inciso XVIII ao art. 49; modifica o § 4º e acrescenta o § 8º ambos no art. 231, da Constituição Federal\" (inclui dentre as competências exclusivas do Congresso Nacional a aprovação de demarcação das terras tradicionalmente ocupadas pelos índios e a ratificação das demarcações já homologadas; estabelecendo que os critérios e procedimentos de demarcação serão regulamentados por lei), e apensadas"
+    },
+    {
+      "idOrgao": 537365,
+      "siglaComissao": "PEC49110",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 491, de 2010, do Sr. Luiz Carlos Hauly e outros, que \"acresce incisos ao art. 150, VI e art. 155, X da Constituição Federal\" (proíbe a criação de imposto incidente sobre insumos agrícolas, pecuária, alimentos para o consumo humano e medicamentos), e apensadas"
+    },
+    {
+      "idOrgao": 537367,
+      "siglaComissao": "PL161096",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1610, de 1996, do Senado Federal, que \"dispõe sobre a exploração e o aproveitamento de recursos minerais em terras indígenas, de que tratam os arts. 176, parágrafo primeiro, e 231, parágrafo terceiro, da Constituição Federal\", e apensados"
+    },
+    {
+      "idOrgao": 537369,
+      "siglaComissao": "PL372212",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3722, de 2012, do Sr. Rogério Peninha Mendonça, que \"disciplina as normas sobre aquisição, posse, porte e circulação de armas de fogo e munições, cominando penalidades e dando providências correlatas\" (altera o Decreto-lei nº 2.848, de 1940 e revoga a Lei nº 10.826, de 2003)"
+    },
+    {
+      "idOrgao": 537374,
+      "siglaComissao": "PL742006",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7420, de 2006, da Sra. Professora Raquel Teixeira, que \"dispõe sobre a qualidade da educação básica e a responsabilidade dos gestores públicos na sua promoção\", e apensados"
+    },
+    {
+      "idOrgao": 537378,
+      "siglaComissao": "PLP02507",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei Complementar nº 25, de 2007, do Sr. Barbosa Neto, que \"dá nova redação ao caput do art. 79 da Lei Complementar nº 123, de 14 de dezembro de 2006\" (Simples Nacional ou \"Supersimples\"), e apensados"
+    },
+    {
+      "idOrgao": 537381,
+      "siglaComissao": "PEC03907",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 39-A de 2007, do Sr. Raimundo Gomes de Matos e outros, que \"dá nova redação ao art. 6º da Constituição Federal\" (inclui a água como direito social), e apensada"
+    },
+    {
+      "idOrgao": 537383,
+      "siglaComissao": "PEC09911",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 99-A, de 2011, do Sr. João Campos e outros, que \"acrescenta ao art. 103, da Constituição Federal, o inc. X, que dispõe sobre a capacidade postulatória das Associações Religiosas para propor ação de inconstitucionalidade e ação declaratória de constitucionalidade de leis ou atos normativos, perante a Constituição Federal\""
+    },
+    {
+      "idOrgao": 537384,
+      "siglaComissao": "PEC13111",
+      "nomeComissao": "Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 131-A, de 2011, do Sr. Nilson Leitão e outros, que \"altera o § 4º do art. 184 e acrescenta inciso IX e §§ 3º e 4º ao art. 187 da Constituição Federal\" (assegura a prestação de serviço de orientação técnica agrícola e pecuária específica por agentes comunitários da terra como parte integrante da Política Agrícola e da Reforma Agrária)"
+    },
+    {
+      "idOrgao": 537385,
+      "siglaComissao": "PEC15907",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 159-A, de 2007, do Sr. Assis do Couto e outros, que \"altera a redação do § 4º do art.177 da Constituição Federal\" (destina recursos da Cide-combustíveis para o financiamento de projetos de mitigação dos impactos socioambientais negativos decorrentes da produção de biocombustíveis), e apensadas"
+    },
+    {
+      "idOrgao": 537388,
+      "siglaComissao": "CELICITA",
+      "nomeComissao": "Comissão Especial para análise, estudo e formulação de proposições relacionadas à Lei 8.666, de 1993 (institui normas para licitações e contratos da Administração Pública e dá outras providências)"
+    },
+    {
+      "idOrgao": 537389,
+      "siglaComissao": "CEPACTO",
+      "nomeComissao": "Comissão Especial destinada a analisar e apresentar propostas com relação à partilha de recursos públicos e respectivas obrigações da União, dos Estados, dos Municípios e do Distrito Federal (Pacto Federativo)"
+    },
+    {
+      "idOrgao": 537390,
+      "siglaComissao": "PEC45301",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 453-A de 2001, do Sr. Raimundo Gomes de Matos e outros, que \"dá nova redação ao caput do art. 38 da Constituição Federal\" (propondo a volta à redação originária do artigo 38 da Constituição, aplicando ao servidor da administração indireta as normas para exercício de mandato eletivo)"
+    },
+    {
+      "idOrgao": 537392,
+      "siglaComissao": "PL267189",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei 2.671, de 1989, do Senado Federal, que \"dispõe sobre o exercício das atividades de Posto Revendedor de derivados do petróleo e álcool etílico hidratado combustível (AEHC), e dá outras providências\" (Código de Combustíveis), e apensados"
+    },
+    {
+      "idOrgao": 537399,
+      "siglaComissao": "PL804510",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 8045, de 2010, do Senado Federal, que trata do \"Código de Processo Penal\" (revoga o decreto-lei nº 3.689, de 1941. Altera os Decretos-lei nº 2.848, de 1940; 1.002, de 1969; as Leis nº 4.898, de 1965, 7.210, de 1984; 8.038, de 1990; 9.099, de 1995; 9.279, de 1996; 9.609, de 1998; 11.340, de 2006; 11.343, de 2006), e apensado"
+    },
+    {
+      "idOrgao": 537400,
+      "siglaComissao": "PLP25105",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei Complementar  nº 251, de 2005, do Sr. Roberto Gouveia, que \"incluem parágrafos no artigo 19 da Lei Complementar nº 101 de 4 de maio de 2000\" (aumenta o gasto com pessoal na área de saúde para até 75% 'setenta e cinco por cento' dos recursos financeiros destinados à saúde), e apensados"
+    },
+    {
+      "idOrgao": 537401,
+      "siglaComissao": "PEC38709",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 387-A, de 2009, do Sr. Ademir Camilo e outros, que \"dá nova redação ao inciso III, do art. 38 da Constituição Federal\" (autoriza Vice-Prefeito a perceber a vantagem de seu cargo, emprego ou função, sem prejuízo da remuneração de seu cargo eletivo, desde que haja compatibilidade de horário)"
+    },
+    {
+      "idOrgao": 537409,
+      "siglaComissao": "PEC21403",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 214-A, de 2003, do Senado Federal, destinada a  \"acrescentar § 5º ao art. 73 e § 4º ao art. 131, ambos da Constituição Federal, para instituir as consultorias jurídicas do Tribunal de Contas da União, da Câmara dos Deputados e do Senado Federal\""
+    },
+    {
+      "idOrgao": 537440,
+      "siglaComissao": "CEHIDRIC",
+      "nomeComissao": "Comissão Especial destinada a estudar e debater os efeitos da Crise Hídrica, bem como propor medidas tendentes a minimizar os impactos da escassez de água no Brasil"
+    },
+    {
+      "idOrgao": 537444,
+      "siglaComissao": "PL649309",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6.493, de 2009, do Poder Executivo, que \"dispõe sobre a organização e o funcionamento da Polícia Federal\" (Lei Orgânica da Polícia Federal; revoga dispositivos da Lei nº 4.878, de 1965)"
+    },
+    {
+      "idOrgao": 537461,
+      "siglaComissao": "CMMULHER",
+      "nomeComissao": "Comissão Permanente Mista de Combate à Violência contra a Mulher"
+    },
+    {
+      "idOrgao": 537462,
+      "siglaComissao": "CECONTAS",
+      "nomeComissao": "Comissão Especial destinada a estudar e propor melhorias na sistemática de análise e avaliação das contas públicas e de conferência das transferências constitucionais"
+    },
+    {
+      "idOrgao": 537480,
+      "siglaComissao": "CPD",
+      "nomeComissao": "Comissão de Defesa dos Direitos das Pessoas com Deficiência"
+    },
+    {
+      "idOrgao": 537482,
+      "siglaComissao": "CEXVENE",
+      "nomeComissao": "Comissão Externa destinada a acompanhar as circunstancias em que ocorreram e os desdobramentos da prisão do prefeito da cidade de Caracas, Antonio Ledezma, pelo Serviço Bolivariano de Inteligência Nacional (Sebin)"
+    },
+    {
+      "idOrgao": 537483,
+      "siglaComissao": "PEC18712",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 187-A, de 2012, do Sr. Wellington Fagundes e outros, que \"dá nova redação às alíneas \"a\" e \"b\" do inciso I do art. 96 da Constituição Federal, renomina as suas alíneas subsequentes e acrescenta-lhe um parágrafo único, dispondo sobre a eleição dos órgãos diretivos dos Tribunais de 2º grau\""
+    },
+    {
+      "idOrgao": 537484,
+      "siglaComissao": "CPIJOVEM",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a apurar as causas, razões, consequências, custos sociais e econômicos da violência, morte e desaparecimento de jovens negros e pobres no Brasil"
+    },
+    {
+      "idOrgao": 537485,
+      "siglaComissao": "CPICARCE",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar a realidade do Sistema Carcerário Brasileiro"
+    },
+    {
+      "idOrgao": 537487,
+      "siglaComissao": "CPIORTES",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar a Cartelização na Fixação de Preços e Distribuição de Órteses e Próteses, inclusive, com a Criação de Artificial Direcionamento da Demanda e Captura dos Serviços Médicos por Interesses Privados - MÁFIA DAS ÓRTESES E PRÓTESES NO BRASIL"
+    },
+    {
+      "idOrgao": 537489,
+      "siglaComissao": "GTPEMIL",
+      "nomeComissao": "Grupo de Trabalho para avaliar a proposta do novo Código Penal Militar."
+    },
+    {
+      "idOrgao": 537493,
+      "siglaComissao": "CEXMINI",
+      "nomeComissao": "Comissão externa, sem ônus para a Câmara dos Deputados, com o objetivo de verificar, in loco, o estado de saúde do Ministro Cid Gomes e preparar um laudo que ateste seu estado de saúde."
+    },
+    {
+      "idOrgao": 537494,
+      "siglaComissao": "CEXCAMIN",
+      "nomeComissao": "Comissão Externa destinada a acompanhar a Paralisação Nacional dos Caminhoneiros"
+    },
+    {
+      "idOrgao": 537497,
+      "siglaComissao": "SUBLAVA",
+      "nomeComissao": "SUBCOMISSÃO ESPECIAL PARA DEBATER OS EFEITOS DA \"OPERAÇÃO LAVA-JATO\" NA ECONOMIA E NO ÍNDICE DE EMPREGO NO BRASIL."
+    },
+    {
+      "idOrgao": 537498,
+      "siglaComissao": "SECOM",
+      "nomeComissao": "Secretaria de Comunicação Social"
+    },
+    {
+      "idOrgao": 537499,
+      "siglaComissao": "SEREL",
+      "nomeComissao": "Secretaria de Relações Internacionais"
+    },
+    {
+      "idOrgao": 537500,
+      "siglaComissao": "CEPENSAO",
+      "nomeComissao": "Comissão Especial destinada a estudar e apresentar propostas com relação à fiscalização das Entidades de Previdência Complementar (Fundos de Pensão)"
+    },
+    {
+      "idOrgao": 537501,
+      "siglaComissao": "SUBREATO",
+      "nomeComissao": "Subcomissão Especial para recuperação dos ativos originários e produtos de crimes, encontrados no exterior, de forma eficiente e célere e investigar as contas secretas de brasileiros no Banco HSBC."
+    },
+    {
+      "idOrgao": 537502,
+      "siglaComissao": "SUBTELEF",
+      "nomeComissao": "Subcomissão Especial para Acompanhamento e Fiscalização Operacional dos Serviços de Telefonia Fixa e Móvel no Brasil."
+    },
+    {
+      "idOrgao": 537503,
+      "siglaComissao": "PL082715",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 827, de 2015, do Sr. Dilceu Sperafico, que \"altera a Lei nº 9.456, de 25 de abril de 1997, que institui a Lei de Proteção de Cultivares e dá outras providências\""
+    },
+    {
+      "idOrgao": 537507,
+      "siglaComissao": "GTCL",
+      "nomeComissao": "Grupo de Trabalho de Consolidação das Leis"
+    },
+    {
+      "idOrgao": 537510,
+      "siglaComissao": "CEXSECA",
+      "nomeComissao": "Comissão Externa destinada a acompanhar as ações do governo federal, estadual e municipal no combate à seca no semiárido nordestino."
+    },
+    {
+      "idOrgao": 537511,
+      "siglaComissao": "PEC17193",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 171-A, de 1993, do Sr. Benedito Domingos e outros, que \"altera a redação do art. 228 da Constituição Federal\" (imputabilidade penal do maior de dezesseis anos), e apensadas"
+    },
+    {
+      "idOrgao": 537512,
+      "siglaComissao": "SUBDESPO",
+      "nomeComissao": "Subcomissão Especial do Plano Nacional do Desporto."
+    },
+    {
+      "idOrgao": 537513,
+      "siglaComissao": "SUBFUTEB",
+      "nomeComissao": "Subcomissão Permanente do Futebol Brasileiro."
+    },
+    {
+      "idOrgao": 537514,
+      "siglaComissao": "SUBOLIMP",
+      "nomeComissao": "Subcomissão Especial para a realização das Olimpíadas e Paralimpíadas de 2016"
+    },
+    {
+      "idOrgao": 537516,
+      "siglaComissao": "PEC47301",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 473-A, de 2001, do Sr. Antonio Carlos Pannunzio e outros, que \"dá nova redação ao inciso XIV do art. 84 e ao parágrafo único do art. 101 da Constituição Federal\" (alterna entre o Presidente da República e o Congresso Nacional a escolha dos Ministros do Supremo Tribunal Federal), e apensadas"
+    },
+    {
+      "idOrgao": 537517,
+      "siglaComissao": "SUBPOLAG",
+      "nomeComissao": "Subcomissão Permanente da Política Agrícola"
+    },
+    {
+      "idOrgao": 537519,
+      "siglaComissao": "SUBDESUS",
+      "nomeComissao": "Subcomissão Especial do Desenvolvimento Sustentável"
+    },
+    {
+      "idOrgao": 537520,
+      "siglaComissao": "SUBSISPU",
+      "nomeComissao": "Subcomissão Especial para Sistematização das Proposições referentes à Segurança Pública"
+    },
+    {
+      "idOrgao": 537521,
+      "siglaComissao": "SUBCRORG",
+      "nomeComissao": "Subcomissão Permanente para tratar do Combate ao Crime Organizado"
+    },
+    {
+      "idOrgao": 537522,
+      "siglaComissao": "SUBSAGUA",
+      "nomeComissao": "Subcomissão Especial da Universalização do Saneamento Básico e do Uso Racional da Água"
+    },
+    {
+      "idOrgao": 537523,
+      "siglaComissao": "SUBREFUN",
+      "nomeComissao": "Subcomissão Especial de Desburocratização no Processo de Regularização Fundiária"
+    },
+    {
+      "idOrgao": 537524,
+      "siglaComissao": "SUBHABIS",
+      "nomeComissao": "Subcomissão Permanente de Habitação de Interesse Social"
+    },
+    {
+      "idOrgao": 537525,
+      "siglaComissao": "PL740614",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7.406, de 2014, do Senado Federal, que \"altera o art. 3º da Lei nº 9.472, de 16 de julho de 1997, para assegurar ao usuário o direito de ser informado, antes de a chamada ser completada, sobre a incidência de despesas de interconexão\", e apensados"
+    },
+    {
+      "idOrgao": 537531,
+      "siglaComissao": "SUBDESAN",
+      "nomeComissao": "Subcomissão Especial da Defesa Sanitária"
+    },
+    {
+      "idOrgao": 537532,
+      "siglaComissao": "SUBAGROE",
+      "nomeComissao": "Subcomissão Especial da Agroenergia"
+    },
+    {
+      "idOrgao": 537533,
+      "siglaComissao": "SUBAFAM",
+      "nomeComissao": "Subcomissão Pemanente de Assuntos Fundiários e Agricultura Familiar"
+    },
+    {
+      "idOrgao": 537534,
+      "siglaComissao": "SUBINF",
+      "nomeComissao": "Subcomissão Permanente da Infraestrutura"
+    },
+    {
+      "idOrgao": 537541,
+      "siglaComissao": "SUBPORTO",
+      "nomeComissao": "Subcomissão Permanente dos Portos e Vias Navegáveis"
+    },
+    {
+      "idOrgao": 537542,
+      "siglaComissao": "SUBSAUDE",
+      "nomeComissao": "Subcomissão Permanente de Saúde"
+    },
+    {
+      "idOrgao": 537543,
+      "siglaComissao": "SUBPREVI",
+      "nomeComissao": "Subcomissão Permanente de Previdência Social"
+    },
+    {
+      "idOrgao": 537544,
+      "siglaComissao": "SUBASSOC",
+      "nomeComissao": "Subcomissão Permanente de Assistência Social"
+    },
+    {
+      "idOrgao": 537545,
+      "siglaComissao": "SUBPASNE",
+      "nomeComissao": "Subcomissão Especial destinada a Avaliar as Políticas de Assistência Social e Saúde da População Negra"
+    },
+    {
+      "idOrgao": 537546,
+      "siglaComissao": "SUBSUS",
+      "nomeComissao": "Subcomissão Especial destinada a tratar da  Reestruturação, da Organização, Funcionamento e Financiamento do Sistema Único de Saúde - SUS"
+    },
+    {
+      "idOrgao": 537547,
+      "siglaComissao": "SUBCAMED",
+      "nomeComissao": "Subcomissão Especial da Carreira Médica"
+    },
+    {
+      "idOrgao": 537549,
+      "siglaComissao": "SUBLICON",
+      "nomeComissao": "Subcomissão Especial da Lei de Licitações e Contratos"
+    },
+    {
+      "idOrgao": 537552,
+      "siglaComissao": "PL338104",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3381, de 2004, da Comissão de Legislação Participativa, que \"dispõe sobre a Vigilância Sanitária a que ficam sujeitos os produtos de origem natural para a saúde, e dá outras providências\""
+    },
+    {
+      "idOrgao": 537553,
+      "siglaComissao": "PEC29913",
+      "nomeComissao": "Comissão Especial  destinada a proferir parecer à Proposta de Emenda à Constituição nº 299-A, de 2013, do Sr. Eduardo Cunha e outros, que \"altera o art. 88 da Constituição Federal\" (limita o número de ministérios)"
+    },
+    {
+      "idOrgao": 537555,
+      "siglaComissao": "SUBREC",
+      "nomeComissao": "Subcomissão Permanente sobre fontes de recursos para incentivo à Cultura."
+    },
+    {
+      "idOrgao": 537556,
+      "siglaComissao": "CEXTORNA",
+      "nomeComissao": "Comissão Externa destinada a acompanhar a situação de emergência no Estado de Santa Catarina atingido por tornado"
+    },
+    {
+      "idOrgao": 537579,
+      "siglaComissao": "SUBFINED",
+      "nomeComissao": "Subcomissão Especial Financiamento da Educação"
+    },
+    {
+      "idOrgao": 537610,
+      "siglaComissao": "SUBSISFI",
+      "nomeComissao": "Subcomissão Especial Consolidação da Legislação do Sistema Financeiro"
+    },
+    {
+      "idOrgao": 537622,
+      "siglaComissao": "PL044291",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 442, de 1991, do Sr. Renato Viana, e apensados, para estabelecer Marco Regulatório dos Jogos no Brasil"
+    },
+    {
+      "idOrgao": 537650,
+      "siglaComissao": "PL355504",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3.555, de 2004, do Sr. José Eduardo Cardozo, que \"estabelece normas gerais em contratos de seguro privado e revoga dispositivos do Código Civil, do Código Comercial Brasileiro e do Decreto-Lei nº 73 de 1966\" (revoga dispositivos das Leis nºs 556, de 1850 e 10.406, de 2002), e apensados"
+    },
+    {
+      "idOrgao": 537661,
+      "siglaComissao": "SUBMOB",
+      "nomeComissao": "Subcomissão Especial Destinada a Acompanhar as Obras de Mobilidade Urbana Financiadas com Recursos Federais"
+    },
+    {
+      "idOrgao": 537662,
+      "siglaComissao": "SUBTEL",
+      "nomeComissao": "Subcomissão Especial da Telefonia"
+    },
+    {
+      "idOrgao": 537664,
+      "siglaComissao": "SUBTRAFE",
+      "nomeComissao": "Subcomissão Especial destinada a acompanhar Obras das Rodovias Federais Transversais BR 242 e BR 235"
+    },
+    {
+      "idOrgao": 537665,
+      "siglaComissao": "SUBPF",
+      "nomeComissao": "Subcomissão Permanente para Acompanhamento das Operações da Polícia Federal alusivas ao Sistema Tributário Nacional, no intuito de propor modificações normativas no Sistema de Administração de Recursos Fiscais."
+    },
+    {
+      "idOrgao": 537666,
+      "siglaComissao": "SUBJOGOS",
+      "nomeComissao": "Subcomissão Permanente para Acompanhamento e Fiscalização dos Jogos Olímpicos de 2016, no Rio de Janeiro-RJ."
+    },
+    {
+      "idOrgao": 537673,
+      "siglaComissao": "SUBECOOP",
+      "nomeComissao": "Subcomissão Permanente Micro e Pequenas Empresas e Cooperativismo"
+    },
+    {
+      "idOrgao": 537674,
+      "siglaComissao": "PEC01115",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 11-A, de 2015, do Senado Federal, que \"altera os arts. 92 e 111-A da Constituição Federal, para explicitar o Tribunal Superior do Trabalho como órgão do Poder Judiciário, alterar os requisitos para o provimento dos cargos de Ministros daquele Tribunal e modificar-lhe a competência\""
+    },
+    {
+      "idOrgao": 537675,
+      "siglaComissao": "PEC17212",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 172-A, de 2012, do Sr. Mendonça Filho e outros, que \"altera o art. 160 da Constituição Federal\" (estabelece que a lei não imporá nem transferirá qualquer encargo ou a prestação de serviços aos Estados, Distrito Federal ou aos municípios sem a previsão de repasses financeiros necessários ao seu custeio)"
+    },
+    {
+      "idOrgao": 537676,
+      "siglaComissao": "SUBAMEXP",
+      "nomeComissao": "Subcomissão Permanente para Tratar do Controle de Armas, Munições e Explosivos"
+    },
+    {
+      "idOrgao": 537681,
+      "siglaComissao": "SUBTAVBR",
+      "nomeComissao": "Subcomissão Permanente para monitorar a implementação do Projeto do Trem de Alta Velocidade Brasileiro - TAV - e as ações para aprimoramento dos sistemas de transporte de passageiros sobre trilhos nas regiões metropolitanas e a expansão do transporte de cargas sobre trilhos."
+    },
+    {
+      "idOrgao": 537684,
+      "siglaComissao": "SUBRAD",
+      "nomeComissao": "Subcomissão Especial do Rádio Digital"
+    },
+    {
+      "idOrgao": 537685,
+      "siglaComissao": "SUBTEC",
+      "nomeComissao": "Subcomissão Especial do Desenvolvimento Científico e Tecnológico da Região Nordeste"
+    },
+    {
+      "idOrgao": 537686,
+      "siglaComissao": "SUBTELTV",
+      "nomeComissao": "Subcomissão Especial dos Serviços de Telefonia Móvel e TV por Assinatura"
+    },
+    {
+      "idOrgao": 537692,
+      "siglaComissao": "SUBEDAMB",
+      "nomeComissao": "Subcomissão Especial Educação Ambiental"
+    },
+    {
+      "idOrgao": 537694,
+      "siglaComissao": "SUBEFSAU",
+      "nomeComissao": "Subcomissão Especial Educação, Formação Profissional e Saúde"
+    },
+    {
+      "idOrgao": 537699,
+      "siglaComissao": "SUBFEDUC",
+      "nomeComissao": "Subcomissão Especial Financiamento da Educação"
+    },
+    {
+      "idOrgao": 537700,
+      "siglaComissao": "SUBPROED",
+      "nomeComissao": "Subcomissão Permanente Formação e Carreira dos Profissionais da Educação"
+    },
+    {
+      "idOrgao": 537701,
+      "siglaComissao": "SUBINEDU",
+      "nomeComissao": "Subcomissão Permanente Indicadores e Qualidade da Educação"
+    },
+    {
+      "idOrgao": 537702,
+      "siglaComissao": "SUBPNE",
+      "nomeComissao": "Subcomissão Permanente para Acompanhar, Monitorar e Avaliar o Processo de Implementação das Estratégias e do Cumprimento das Metas do Plano Nacional de Educação - PNE"
+    },
+    {
+      "idOrgao": 537703,
+      "siglaComissao": "PEC03911",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 39-A, de 2011, do Sr. Arnaldo Jordy e outros, que \"revoga o inciso VII do art. 20 da Constituição e o § 3º do art. 49 do Ato das Disposições Constitucionais Transitórias, para extinguir o instituto do terreno de marinha e seus acrescidos e para dispor sobre a propriedade desses imóveis\", e apensadas"
+    },
+    {
+      "idOrgao": 537710,
+      "siglaComissao": "PEC44314",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2014, do Sr. Subtenente Gonzaga e outros, que \"acrescenta parágrafo ao art. 42 da Constituição Federal, para assegurar às associações dos militares estaduais as mesmas garantias de representação e imunidade tributária asseguradas aos sindicatos de trabalhadores\""
+    },
+    {
+      "idOrgao": 537711,
+      "siglaComissao": "PL177515",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1775, de 2015, do Poder Executivo, que \"dispõe sobre o Registro Civil Nacional (RCN) e dá outras providências\""
+    },
+    {
+      "idOrgao": 537713,
+      "siglaComissao": "PEC00115",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 01-A, de 2015, do Sr. Vanderlei Macris e outros, que \"altera o art. 198 da Constituição Federal, para dispor sobre o valor mínimo a ser aplicado anualmente pela União em ações e serviços públicos de saúde, de forma escalonada em cinco exercícios: 15%, 16%, 17%, 18% e 18,7%\""
+    },
+    {
+      "idOrgao": 537715,
+      "siglaComissao": "PL631405",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6314, de 2005, do Sr. Takayama, que \"acrescenta inciso ao art. 142 da lei nº 2.848, de 7 de dezembro de 1940, Código Penal\" (excluindo o crime de injúria e difamação quando for a opinião de professor ou ministro religioso), e apensados"
+    },
+    {
+      "idOrgao": 537716,
+      "siglaComissao": "PEC39514",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 395-A, de 2014, do Sr. Alex Canziani e outros, que \"altera a redação do inciso IV do art. 206 da Constituição Federal, referente à gratuidade do ensino público em estabelecimentos oficiais\""
+    },
+    {
+      "idOrgao": 537717,
+      "siglaComissao": "CEXSENAD",
+      "nomeComissao": "Comissão Externa destinada a acompanhar as ações do Ministério das Relações Exteriores com relação ao incidente ocorrido com a comitiva de Senadores brasileiros em missão oficial na Venezuela."
+    },
+    {
+      "idOrgao": 537720,
+      "siglaComissao": "PL162815",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1628, de 2015, do Sr. André Moura, que \"altera a Lei nº 11.350, de 5 de outubro de 2006, para regulamentar as atividades dos Agentes Comunitários de Saúde e Agentes de Combate às Endemias, suas condições de trabalho, e seus direitos previdenciários, oriundos da regulamentação da Emenda Constitucional 51/2006\"."
+    },
+    {
+      "idOrgao": 537725,
+      "siglaComissao": "PEC25008",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 250-A, de 2008, do Sr. Pedro Chaves e outros, que \"acresce artigo ao Ato das Disposições Constitucionais Transitórias\" (integra aos quadros efetivos de pessoal os empregados de empresa estatal em fase de liquidação ou processo de extinção, que se encontram agregados ao serviço público e que possuam mais de vinte anos de exercício)"
+    },
+    {
+      "idOrgao": 537727,
+      "siglaComissao": "PEC00215",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 2-A, de 2015, do Sr. Hélio Leite e outros, que \"altera o art. 166 da Constituição Federal, para tornar obrigatória a execução da programação orçamentária que especifica\""
+    },
+    {
+      "idOrgao": 537728,
+      "siglaComissao": "SUBDROGA",
+      "nomeComissao": "Subcomissão Especial Destinada a Discutir, Elaborar e Acompanhar Políticas Públicas sobre Drogas"
+    },
+    {
+      "idOrgao": 537730,
+      "siglaComissao": "PL396897",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3968, de 1997, do Sr. Serafim Venzon, que \"isenta os órgãos públicos e as entidades filantrópicas do pagamento de direitos autorais pelo uso de obras musicais e lítero-musicais em eventos por eles promovidos\", e apensados"
+    },
+    {
+      "idOrgao": 537731,
+      "siglaComissao": "CPICIBER",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar a prática de crimes cibernéticos e seus efeitos deletérios perante a economia e a sociedade neste país, tendo em vista (i) que a Polícia Federal realizou em 2014 a operação batizada de IB2K para desarticular uma quadrilha suspeita de desviar pela Internet mais de R$ 2 milhões de correntistas de vários bancos, quadrilha esta que usava parte do dinheiro desviado para comprar armas e drogas; (ii) o último relatório da Central Nacional de Denúncias de Crimes Cibernéticos que aponta um crescimento, entre 2013 e 2014, de 192,93% nas denúncias envolvendo páginas na Internet suspeitas de tráfico de pessoas, e (iii) os gastos de US$ 15,3 bilhões com crimes cibernéticos no Brasil em 2010"
+    },
+    {
+      "idOrgao": 537732,
+      "siglaComissao": "CPIANIM",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar os fatos determinados como maus-tratos de animais"
+    },
+    {
+      "idOrgao": 537733,
+      "siglaComissao": "CPIFUNDO",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar indícios de aplicação incorreta dos recursos e de manipulação na gestão de fundos de previdência complementar de funcionários de estatais e servidores públicos, ocorridas entre 2003 e 2015, e que causaram prejuízos vultosos aos seus participantes"
+    },
+    {
+      "idOrgao": 537734,
+      "siglaComissao": "CPIBNDES",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar supostas irregularidades envolvendo o Banco Nacional de Desenvolvimento Econômico e Social (BNDES), ocorridas entre os anos de 2003 e 2015, relacionadas à concessão de empréstimos suspeitos e prejudiciais ao interesse público"
+    },
+    {
+      "idOrgao": 537737,
+      "siglaComissao": "CETRIBUT",
+      "nomeComissao": "Comissão Especial para análise, estudo e formulação de proposições relacionadas à Reforma Tributária"
+    },
+    {
+      "idOrgao": 537738,
+      "siglaComissao": "PL251615",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2516, de 2015, do Senado Federal, que \"institui a Lei de Migração\" (altera o Decreto-lei nº 2.848, de 1940 e revoga as Leis nº 818, de 1949 e 6.815, de 1980), e apensados"
+    },
+    {
+      "idOrgao": 537741,
+      "siglaComissao": "PL808514",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 8085, de 2014, do Senado Federal, que \"altera a Lei nº 9.503, de 23 de setembro de 1997, que institui o Código de Trânsito Brasileiro, para instituir a obrigatoriedade da prática de direção veicular em vias públicas para fins de formação de condutores\""
+    },
+    {
+      "idOrgao": 537743,
+      "siglaComissao": "PL101311",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1013, de 2011, do Sr. Aureo, que \"dispõe sobre a fabricação e venda, em território nacional, de veículos utilitários movidos a óleo diesel, e dá outras providências\", e apensado"
+    },
+    {
+      "idOrgao": 537744,
+      "siglaComissao": "PLP13715",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei Complementar nº 137, de 2015, do Senado Federal, que \"dispõe sobre o procedimento para a criação, a incorporação, a fusão e o desmembramento de Municípios, nos termos do § 4º do art. 18 da Constituição Federal, altera a Lei nº 5.172, de 25 de outubro de 1966, e dá outras providências\""
+    },
+    {
+      "idOrgao": 537745,
+      "siglaComissao": "PL243815",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2438, de 2015, da Comissão Parlamentar de Inquérito destinada a apurar as causas, razões, consequências, custos sociais e econômicos da violência, morte e desaparecimento de jovens negros e pobres no Brasil, que \"institui o Plano Nacional de Enfrentamento ao Homicídio de Jovens, estabelece a sua avaliação e dá outras providências\""
+    },
+    {
+      "idOrgao": 537748,
+      "siglaComissao": "SUBMOBUR",
+      "nomeComissao": "Subcomissão Especial de Mobilidade Urbana no Brasil"
+    },
+    {
+      "idOrgao": 537749,
+      "siglaComissao": "SUBGOMET",
+      "nomeComissao": "Subcomissão Permanente de Governança Metropolitana Interfederativa"
+    },
+    {
+      "idOrgao": 537750,
+      "siglaComissao": "CEESPORT",
+      "nomeComissao": "Comissão Especial destinada a estudar e apresentar propostas de reformulação da Lei Pelé (Lei nº 9.615, de 1998), do Estatuto de Defesa do Torcedor (Lei nº 10.671, de 2003) e das demais legislações aplicadas ao futebol e ao esporte"
+    },
+    {
+      "idOrgao": 537753,
+      "siglaComissao": "PEC00415",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 04-A, de 2015, do Sr. André Figueiredo e outros, que \"altera o art. 76 do Ato das Disposições Constitucionais Transitórias\" (prorroga a vigência da DRU até 31 de dezembro de 2019 e propõe a retirada escalonada da incidência da desvinculação de receita da arrecadação das contribuições sociais destinadas ao financiamento da seguridade social) e apensada"
+    },
+    {
+      "idOrgao": 537756,
+      "siglaComissao": "CETRANSP",
+      "nomeComissao": "Comissão Especial do Marco Regulatório de Transporte Rodoviário de Cargas"
+    },
+    {
+      "idOrgao": 537758,
+      "siglaComissao": "CESINDIC",
+      "nomeComissao": "Comissão Especial destinada a estudar e apresentar propostas com relação ao financiamento da atividade sindical"
+    },
+    {
+      "idOrgao": 537763,
+      "siglaComissao": "PEC08015",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 80-A, de 2015, do Sr. Valtenir Pereira e outros, que \"acrescenta o artigo 132-A à Constituição da República, e os parágrafos 1º, 2º e 3º ao artigo 69 do Ato das Disposições Constitucionais Transitórias, estabelecendo as procuradorias autárquicas e fundacionais e regulando a transição das atividades de assistência, assessoramento e consultoria jurídica para o sistema orgânico das Procuradorias Gerais dos Estados, Distrito Federal e Municípios\""
+    },
+    {
+      "idOrgao": 537765,
+      "siglaComissao": "CEUNIFI",
+      "nomeComissao": "Comissão Especial destinada a estudar e apresentar propostas de unificação das polícias civis e militares"
+    },
+    {
+      "idOrgao": 537772,
+      "siglaComissao": "SUBDIPUB",
+      "nomeComissao": "Subcomissão Permanente da Dívida Pública Brasileira"
+    },
+    {
+      "idOrgao": 537773,
+      "siglaComissao": "PEC07415",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 74-A, de 2015, do Sr. Carlos Sampaio e outros, que \"acrescenta parágrafos ao artigo 100 da Constituição Federal, dispondo sobre o regime de pagamento de débitos públicos decorrentes de condenações judiciais, e acrescenta disposições ao Ato das Disposições Constitucionais Transitórias, instituindo regime especial de pagamento para os casos em mora\""
+    },
+    {
+      "idOrgao": 537774,
+      "siglaComissao": "PL296015",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2960, de 2015, do Poder Executivo, que \"dispõe sobre o Regime Especial de Regularização Cambial e Tributária de recursos, bens ou direitos de origem lícita não declarados, remetidos, mantidos no exterior ou repatriados por residentes ou domiciliados no País, e dá outras providências\""
+    },
+    {
+      "idOrgao": 537784,
+      "siglaComissao": "CEXBR101",
+      "nomeComissao": "Comissão Externa destinada a fazer o acompanhamento \"in loco\" e fiscalizar os planos de trabalho, obras realizadas, intervenções futuras, investimentos, obrigações e direitos adquiridos pela Concessionária ECO 101 que administra o trecho da BR 101 que corta o Estado do Espírito Santo"
+    },
+    {
+      "idOrgao": 537792,
+      "siglaComissao": "CPIFUNAI",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar a atuação da Fundação Nacional do Índio (FUNAI) e do Instituto Nacional de Colonização e Reforma Agrária (INCRA) na demarcação de terras indígenas e de remanescentes de quilombos"
+    },
+    {
+      "idOrgao": 537794,
+      "siglaComissao": "CEXTRANE",
+      "nomeComissao": "Comissão Externa com o objetivo de acompanhar in loco a situação em que se encontram as obras que compõem o projeto de construção da ferrovia Nova Transnordestina e quais as providências que foram e/ou serão adotadas para regularizar a execução do projeto, tendo em vista as irregularidades e as responsabilidades apuradas em auditoria realizada pelo TCU"
+    },
+    {
+      "idOrgao": 537796,
+      "siglaComissao": "CEXBARRA",
+      "nomeComissao": "Comissão Externa destinada a acompanhar e monitorar os desdobramentos do desastre ambiental, ocorrido em Mariana - MG e região no dia 05 de novembro de 2015, causado pelo rompimento de uma barragem"
+    },
+    {
+      "idOrgao": 537797,
+      "siglaComissao": "PEC51810",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 518-A, de 2010, do Sr. Pompeo de Mattos e outros, que \"dá nova redação ao caput do art. 19 do Ato das Disposições Constitucionais Transitórias e revoga o § 2º do dispositivo\" (concede estabilidade aos servidores públicos, admitidos sob o regime celetista, em exercício na data de vigência do Regime Jurídico Único)"
+    },
+    {
+      "idOrgao": 537802,
+      "siglaComissao": "PL363615",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3636, de 2015, do Senado Federal, que \"altera a Lei nº 12.846, de 1º de agosto de 2013, e a Lei nº 8.429, de 2 de junho de 1992, para permitir que o Ministério Público e a Advocacia Pública celebrem acordo de leniência, de forma isolada ou em conjunto, no âmbito da Lei nº 12.846, de 1º de agosto de 2013, e dá outras providências\""
+    },
+    {
+      "idOrgao": 537804,
+      "siglaComissao": "PL320015",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3200, de 2015, do Sr. Covatti Filho, que \"dispõe sobre a pesquisa, a experimentação, a produção, a embalagem e rotulagem, o transporte, o armazenamento, a comercialização, a propaganda comercial, a utilização, a importação, a exportação, o destino final dos resíduos e embalagens, o registro, a classificação, o controle, a inspeção e a fiscalização de defensivos fitossanitários e de produtos de controle ambiental, seus componentes e afins, e dá outras providências e institui, na estrutura do Ministério da Agricultura, Pecuária e Abastecimento, a Comissão Técnica Nacional de Fitossanitários - CTNFito e dá outras providências\""
+    },
+    {
+      "idOrgao": 537842,
+      "siglaComissao": "CPICARF",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a investigar denúncias de fraudes contra a Receita Federal de bancos e grandes empresas, mediante supostos pagamentos de propinas para manipular os resultados dos julgamentos referentes à sonegação fiscal pelo Conselho Administrativo de Recursos Fiscais – CARF"
+    },
+    {
+      "idOrgao": 537845,
+      "siglaComissao": "CEXZIKA",
+      "nomeComissao": "Comissão Externa destinada a acompanhar as ações referentes à epidemia de Zika vírus e à microcefalia"
+    },
+    {
+      "idOrgao": 537849,
+      "siglaComissao": "CPIMAFUT",
+      "nomeComissao": "Comissão Parlamentar de Inquérito destinada a, no prazo de 120 (cento e vinte) dias, investigar e apurar as denúncias noticiadas no dia 27 de maio de 2015, sobre sete dirigentes da FIFA acusados de vários crimes, incluindo fraude, suborno e formação de quadrilha, e presos na Suíça (há o envolvimento de três brasileiros, conforme o Departamento de Justiça dos Estados Unidos, sendo um deles José Maria Marin, ex-presidente da CBF e atual vice-presidente da instituição) – Máfia do Futebol"
+    },
+    {
+      "idOrgao": 537852,
+      "siglaComissao": "PL456716",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 4567, de 2016, do Senado Federal, que \"altera a Lei nº 12.351, de 22 de dezembro de 2010, para facultar à Petrobras o direito de preferência para atuar como operador e possuir participação mínima de 30% (trinta por cento) nos consórcios formados para exploração de blocos licitados no regime de partilha de produção\", e apensados"
+    },
+    {
+      "idOrgao": 537853,
+      "siglaComissao": "CEPREVI",
+      "nomeComissao": "Comissão Especial destinada a elaborar propostas legislativas visando à reforma da Previdência Social"
+    },
+    {
+      "idOrgao": 537854,
+      "siglaComissao": "CEXOBRAS",
+      "nomeComissao": "Comissão Externa para acompanhar as obras do Governo Federal lastreadas com recursos do Orçamento\nGeral da União em andamento no país"
+    },
+    {
+      "idOrgao": 537857,
+      "siglaComissao": "PL198315",
+      "nomeComissao": "Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1983, de 2015, do Sr. Hildo Rocha, que \"altera o art. 28 da Lei nº 8.935, de 18 de novembro de 1994, que 'regulamenta o art. 236 da Constituição Federal, dispondo sobre serviços notariais e de registro (Lei dos cartórios)', para estabelecer que os notários e oficiais de registro serão remunerados por subsídio, em até ao valor idêntico recebido pelos Ministros do Supremo Tribunal Federal, e que a soma dos emolumentos arrecadados pelas serventias que superar as respectivas despesas com pessoal e com custeio em geral será destinada à saúde pública\""
+    },
+    {
+      "idOrgao": 537858,
+      "siglaComissao": "CEDENUN",
+      "nomeComissao": "Comissão Especial destinada a dar parecer sobre a denúncia contra a Senhora Presidente da República por crime de responsabilidade, oferecida pelos Senhores Hélio Pereira Bicudo, Miguel Reale Junior e Janaina Conceição Paschoal"
+    },
+    {
+      "idOrgao": 537861,
+      "siglaComissao": "CEXVOOS",
+      "nomeComissao": "Comissão Externa destinada a levantar, acompanhar e fiscalizar o cancelamento de voos nas cidades da Região Norte, devido a prejuízos econômicos sofridos pelas companhias aéreas"
+    }
+  ]
+}

@@ -10,7 +10,14 @@ class Deputado{
         $this->conn = $db->connect();
     }
 
+    /*
+    * Obtem os detalhes do deputado a partir do Web Service da camara e insere no Banco de Dados
+    */
     function inserirDetalhesDeputado($ideCadastro){
+
+        require_once '../comissao/Comissao.php';
+        require_once '../gabinete/Gabinete.php';
+        require_once '../partido/Partido.php';
 
         $curl = curl_init();        
         curl_setopt_array($curl, array(
@@ -23,10 +30,18 @@ class Deputado{
         curl_close($curl);
         $json = json_encode(simplexml_load_string($resp));
         $obj = json_decode($json);
-        $this->inserePartidos($obj);
-        $this->insereGabinete($obj);
-        $this->insereComissao($obj);
-       
+
+
+        $comissao = new Comissao();
+        $comissao->insereComissao($obj);
+
+        $partido = new Partido();
+        $partido->inserePartidos($obj);
+
+        $gabinete = new Gabinete();
+        $gabinete->insereGabinete($obj);
+
+
         $idPartido = $obj->Deputado->partidoAtual->idPartido;
         $idGabinete = $obj->Deputado->gabinete->numero;
         $ideCadastro = $obj->Deputado->ideCadastro;
@@ -41,72 +56,13 @@ class Deputado{
         $stmt->bind_param("sssisi", $dataNasc,$nomeProfissao,$situacaoNaLegislaturaAtual,$idGabinete,$idPartido,$ideCadastro);
         $stmt->execute();
         $stmt->close();
-    }
+    }    
 
-
-    function insereGabinete($obj){
-        $idGabinete = $obj->Deputado->gabinete->numero;
-        $anexo = $obj->Deputado->gabinete->anexo;
-        $telefone = $obj->Deputado->gabinete->telefone;
-        $stmt = $this->conn->prepare("INSERT INTO gabinete (idGabinete, anexo , telefone) values (? , ? , ?)");
-        $stmt->bind_param( "iis", $idGabinete ,$anexo , $telefone);
-        $stmt->execute();
-        $stmt->close();
-    }
-
-
-    function inserePartidos($obj){
-        $idPartido = $obj->Deputado->partidoAtual->idPartido;
-        $nome = $obj->Deputado->partidoAtual->nome;
-        $stmt = $this->conn->prepare("INSERT INTO partido (idPartido, nome) values (? , ?)");
-        $stmt->bind_param( "ss", $idPartido , $nome);
-        $stmt->execute();
-        $stmt->close();
-    }
-
-
-    function insereComissao($obj){
-        $ideCadastro = $obj->Deputado->ideCadastro;        
-        try {
-            $count = count($obj->Deputado->comissoes->comissao);
-            if(is_array($obj->Deputado->comissoes->comissao)){
-                for ($i = 0; $i < $count; $i++) {            
-                    $idOrgao = $obj->Deputado->comissoes->comissao[$i]->idOrgaoLegislativoCD;
-                    $siglaComissao = $obj->Deputado->comissoes->comissao[$i]->siglaComissao;
-                    $nomeComissao = $obj->Deputado->comissoes->comissao[$i]->nomeComissao;
-
-                    $stmt = $this->conn->prepare("INSERT INTO orgao (idOrgao, siglaComissao, nomeComissao) values (? , ? , ?)");
-                    $stmt->bind_param( "iss", $idOrgao,$siglaComissao,$nomeComissao);
-                    $stmt->execute();
-                    $stmt->close();
-
-                    $this->insereDeputadoComissao($ideCadastro,$idOrgao);
-                }
-            }
-        } catch (Exception $e) {
-            /*
-            Aqui podemos executar um debug para saber quais deputados obtiveram falha
-
-            echo "Deputado abaixo não possui comissões <br>";
-            print_r($obj);
-            echo "<br> ------------------------------------------------------------------------------------------<br>";
-            */
-
-        }
+    /*
+    * Pega os deputados o WebService da camara e insere no banco do nosso Servidor
+    */
+    function obterDeputadosCamara(){
         
-    }
-
-
-    function insereDeputadoComissao($ideCadastro, $idOrgao){
-        $stmt = $this->conn->prepare("INSERT INTO deputado_has_orgao (deputado_ideCadastro,orgao_idOrgao) values (? , ? )");
-        $stmt->bind_param( "ii", $ideCadastro,$idOrgao);
-        $stmt->execute();
-        $stmt->close();
-    }
-
-
-    function obterDeputados(){        
-
         $curl = curl_init();
         curl_setopt_array($curl, array(
             CURLOPT_RETURNTRANSFER => 1,
@@ -136,6 +92,17 @@ class Deputado{
             $stmt->close();
             $this->inserirDetalhesDeputado($ideCadastro);
         }        
+    }
+
+    /*
+    * Retorna todos os deputados
+    */
+    function getDeputados(){
+        $stmt = $this->conn->prepare("SELECT * FROM deputado");
+        $stmt->execute();
+        $deputados = $stmt->get_result();
+        $stmt->close();
+        return $deputados;
     }
 }
 ?>

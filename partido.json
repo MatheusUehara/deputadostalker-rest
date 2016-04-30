@@ -1,0 +1,109 @@
+{
+  "error": false,
+  "partidos": [
+    {
+      "idPartido": "DEM",
+      "nome": "Democratas"
+    },
+    {
+      "idPartido": "PCdoB",
+      "nome": "Partido Comunista do Brasil"
+    },
+    {
+      "idPartido": "PDT",
+      "nome": "Partido Democrático Trabalhista"
+    },
+    {
+      "idPartido": "PEN",
+      "nome": "Partido Ecológico Nacional"
+    },
+    {
+      "idPartido": "PHS",
+      "nome": "Partido Humanista da Solidariedade"
+    },
+    {
+      "idPartido": "PMB",
+      "nome": "Partido da Mulher Brasileira"
+    },
+    {
+      "idPartido": "PMDB",
+      "nome": "Partido do Movimento Democrático Brasileiro"
+    },
+    {
+      "idPartido": "PP",
+      "nome": "Partido Progressista"
+    },
+    {
+      "idPartido": "PPS",
+      "nome": "Partido Popular Socialista"
+    },
+    {
+      "idPartido": "PR",
+      "nome": "Partido da República"
+    },
+    {
+      "idPartido": "PRB",
+      "nome": "Partido Republicano Brasileiro"
+    },
+    {
+      "idPartido": "PROS",
+      "nome": "Partido Republicano da Ordem Social"
+    },
+    {
+      "idPartido": "PSB",
+      "nome": "Partido Socialista Brasileiro"
+    },
+    {
+      "idPartido": "PSC",
+      "nome": "Partido Social Cristão"
+    },
+    {
+      "idPartido": "PSD",
+      "nome": "Partido Social Democrático"
+    },
+    {
+      "idPartido": "PSDB",
+      "nome": "Partido da Social Democracia Brasileira"
+    },
+    {
+      "idPartido": "PSL",
+      "nome": "Partido Social Liberal"
+    },
+    {
+      "idPartido": "PSOL",
+      "nome": "Partido Socialismo e Liberdade"
+    },
+    {
+      "idPartido": "PT",
+      "nome": "Partido dos Trabalhadores"
+    },
+    {
+      "idPartido": "PTB",
+      "nome": "Partido Trabalhista Brasileiro"
+    },
+    {
+      "idPartido": "PTdoB",
+      "nome": "Partido Trabalhista do Brasil"
+    },
+    {
+      "idPartido": "PTN",
+      "nome": "Partido Trabalhista Nacional"
+    },
+    {
+      "idPartido": "PV",
+      "nome": "Partido Verde"
+    },
+    {
+      "idPartido": "REDE",
+      "nome": "Rede Sustentabilidade"
+    },
+    {
+      "idPartido": "S.PART.",
+      "nome": "Sem Partido"
+    },
+    {
+      "idPartido": "SD",
+      "nome": "Solidariedade"
+    }
+  ]
+}

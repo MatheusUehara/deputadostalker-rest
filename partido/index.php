@@ -15,15 +15,15 @@
                 $response = array();
                 $result = $partido->getPartidos();
 
-                $response["error"] = false;
-                $response["partidos"] = array();
+                
+                $response = array();
 
                 // looping through result and preparing tasks array
                 while ($partidos = $result->fetch_assoc()) {
                     $tmp = array();
                     $tmp["idPartido"] = $partidos["idPartido"];
                     $tmp["nome"] = $partidos["nome"];
-                    array_push($response["partidos"], $tmp);
+                    array_push($response, $tmp);
                 }
 
                 echoRespnse(200, $response);
@@ -42,7 +42,7 @@
                 $app->status($status_code);
     
                 // setting response content type to json
-                $app->contentType('application/json');
+                $app->contentType('json');
     
                 echo json_encode($response);
             }

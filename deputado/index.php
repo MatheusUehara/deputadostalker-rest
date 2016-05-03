@@ -37,8 +37,8 @@
                 $response = array();
                 $result = $deputado->getDeputados();
 
-                $response["error"] = false;
-                $response["deputados"] = array();
+                //$response["error"] = false;
+                $response = array();
 
                 while ($deputados = $result->fetch_assoc()) {
                     $tmp = array();
@@ -56,7 +56,7 @@
                     $tmp["situacaoLegislaturaAtual"] = $deputados["situacaoLegislaturaAtual"];
                     $tmp["gabinete_idGabinete"] = $deputados["gabinete_idGabinete"];
                     $tmp["partido_idPartido"] = $deputados["partido_idPartido"];
-                    array_push($response["deputados"], $tmp);
+                    array_push($response, $tmp);
                 }
                 echoRespnse(200, $response);
             });
@@ -72,7 +72,7 @@
                 $app->status($status_code);
 
                 // setting response content type to json
-                $app->contentType('application/json');
+                $app->contentType('json');
 
                 echo json_encode($response);
             }

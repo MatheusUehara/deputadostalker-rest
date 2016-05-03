@@ -16,15 +16,15 @@
                 $result = $comissao->getComissoes();
 
                 $response = array();
-                $response["error"] = false;
-                $response["comissoes"] = array();
+
+                
 
                 while ($comissoes = $result->fetch_assoc()) {
                     $tmp = array();
                     $tmp["idOrgao"] = $comissoes["idOrgao"];
                     $tmp["siglaComissao"] = $comissoes["siglaComissao"];
                     $tmp["nomeComissao"] = $comissoes["nomeComissao"];
-                    array_push($response["comissoes"], $tmp);
+                    array_push($response, $tmp);
                 }
 
                 echoRespnse(200, $response);
@@ -35,14 +35,12 @@
             $result = $comissao->getComissoesDeputados();
 
             $response = array();
-            $response["error"] = false;
-            $response["comissoesDeputado"] = array();
-
+            
             while ($comissoes = $result->fetch_assoc()) {
                 $tmp = array();
                 $tmp["orgao_idOrgao"] = $comissoes["orgao_idOrgao"];
                 $tmp["deputado_ideCadastro"] = $comissoes["deputado_ideCadastro"];
-                array_push($response["comissoesDeputado"], $tmp);
+                array_push($response, $tmp);
             }
             echoRespnse(200, $response);
         });
@@ -59,7 +57,7 @@
             $app->status($status_code);
 
             // setting response content type to json
-            $app->contentType('application/json');
+            $app->contentType('json');
 
             echo json_encode($response);
         }

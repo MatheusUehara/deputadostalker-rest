@@ -13,6 +13,19 @@ class Deputado{
     /*
     * Obtem os detalhes do deputado a partir do Web Service da camara e insere no Banco de Dados
     */
+
+    function getIdeDeputado( $matricula ){
+        $stmt = $this->conn->prepare("SELECT ideCadastro FROM deputado where matricula = ?");
+        $stmt ->bind_param('i', $matricula);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        
+        $stmt->close();
+        return $result;
+
+
+    }
+
     function inserirDetalhesDeputado($ideCadastro){
 
         require_once '../comissao/Comissao.php';
@@ -94,6 +107,64 @@ class Deputado{
         }        
     }
 
+
+    function obterPresencaDeputado($dataIni,$dataFim,$matricula){
+
+
+
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_RETURNTRANSFER => 1,
+            CURLOPT_URL => 'http://www.camara.gov.br/SitCamaraWS/sessoesreunioes.asmx/ListarPresencasParlamentar?dataIni='.$dataIni.'&dataFim='.$dataFim.'&numMatriculaParlamentar='.$matricula.'',
+            CURLOPT_USERAGENT => 'Deputado Stalker getRequest'
+        ));
+
+        $resp = curl_exec($curl);
+        curl_close($curl);
+        $json = json_encode(simplexml_load_string($resp));
+        $obj = json_decode($json);
+        $return = array();
+        
+        $nomeParlamentar = $obj->nomeParlamentar;
+        $ideCadastro = $this->getIdeDeputado($matricula);
+        //$ideCadastro = 392;
+        foreach ($obj ->diasDeSessoes2-> dia as $dia) {
+            $date = $dia->data;
+            $tmp = explode('/', $date);
+            echo $ideCadastro;
+            $lista['date'] = $tmp[2].'/'.$tmp[1].'/'.$tmp[0];
+            $lista['frequencia'] = $dia -> frequencianoDia;
+            
+            $lista['justificativa'] = $dia -> justificativa;
+            $lista['qtdeSessoes']= $dia -> qtdeSessoes;
+            
+
+            //falta alterar as tabelas.
+            //adciona a data na tabela
+            //comentando essas linhas o telefone sem fio funciona direito.
+            $stmt = $this->conn->prepare("INSERT INTO data(idData) 
+                values ( ? )");
+            $stmt->bind_param( "s", $lista['date'] );
+            $stmt->execute();
+            $stmt->close();
+            //Adciona o relacionamento entre a tabela data e a tabela deputado
+            echo $ideCadastro;
+            $stmt = $this->conn->prepare("INSERT INTO data_has_deputado( data_idData, deputado_ideCadastro, frequencia, justificativa, qtdeSessoes) 
+                values (? , ? , ? , ? , ? )");
+            $stmt->bind_param( "sissi", $lista['date'], $ideCadastro, $lista['frequencia'], $lista['justificativa'], $lista['qtdeSessoes']);
+            $stmt->execute();
+            $stmt->close();
+            array_push($return, $lista);
+
+        }
+        //$data[2].'/'.$data[1].'/'.$data[0]
+
+        //return $obj->dia->qtdeSessoes;
+        return $return; 
+        
+    }
+
+
     /*
     * Retorna todos os deputados
     */
@@ -101,8 +172,10 @@ class Deputado{
         $stmt = $this->conn->prepare("SELECT * FROM deputado");
         $stmt->execute();
         $deputados = $stmt->get_result();
+        
         $stmt->close();
         return $deputados;
     }
+
 }
 ?>

@@ -3,7 +3,7 @@
  * Database configuration
  */
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'deputadostalker');
+define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'deputadostalker');
 

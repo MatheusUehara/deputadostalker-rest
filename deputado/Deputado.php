@@ -19,9 +19,10 @@ class Deputado{
         $stmt ->bind_param('i', $matricula);
         $stmt->execute();
         $result = $stmt->get_result();
+        $id = $result->fetch_assoc();
         
         $stmt->close();
-        return $result;
+        return $id['ideCadastro'];
 
 
     }
@@ -126,40 +127,40 @@ class Deputado{
         $return = array();
         
         $nomeParlamentar = $obj->nomeParlamentar;
+        echo $nomeParlamentar;
         $ideCadastro = $this->getIdeDeputado($matricula);
-        //$ideCadastro = 392;
+
+
+        // INteração para percorrer todos os itens retornado da pesquisa ao webservice da camara.
         foreach ($obj ->diasDeSessoes2-> dia as $dia) {
             $date = $dia->data;
             $tmp = explode('/', $date);
-            echo $ideCadastro;
-            $lista['date'] = $tmp[2].'/'.$tmp[1].'/'.$tmp[0];
+            $lista['data'] = $tmp[2].'/'.$tmp[1].'/'.$tmp[0];
             $lista['frequencia'] = $dia -> frequencianoDia;
-            
-            $lista['justificativa'] = $dia -> justificativa;
+            $lista['justificativa']= $dia -> justificativa;
             $lista['qtdeSessoes']= $dia -> qtdeSessoes;
-            
+            if (!is_string($lista['justificativa'])) {
+                $lista['justificativa'] = NULL;
+            }
 
-            //falta alterar as tabelas.
-            //adciona a data na tabela
-            //comentando essas linhas o telefone sem fio funciona direito.
+            //codigo de inserção no das relações de presença no BD
             $stmt = $this->conn->prepare("INSERT INTO data(idData) 
                 values ( ? )");
-            $stmt->bind_param( "s", $lista['date'] );
+            $stmt->bind_param( "s", $lista['data'] );
             $stmt->execute();
-            $stmt->close();
+            //$stmt->close();
+
             //Adciona o relacionamento entre a tabela data e a tabela deputado
-            echo $ideCadastro;
+
             $stmt = $this->conn->prepare("INSERT INTO data_has_deputado( data_idData, deputado_ideCadastro, frequencia, justificativa, qtdeSessoes) 
                 values (? , ? , ? , ? , ? )");
-            $stmt->bind_param( "sissi", $lista['date'], $ideCadastro, $lista['frequencia'], $lista['justificativa'], $lista['qtdeSessoes']);
+            $stmt->bind_param( "sissi", $lista['data'], $ideCadastro, $lista['frequencia'], $lista['justificativa'], $lista['qtdeSessoes']);
             $stmt->execute();
             $stmt->close();
             array_push($return, $lista);
 
         }
-        //$data[2].'/'.$data[1].'/'.$data[0]
 
-        //return $obj->dia->qtdeSessoes;
         return $return; 
         
     }

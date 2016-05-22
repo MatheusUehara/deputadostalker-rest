@@ -122,17 +122,47 @@ class Deputado{
 
         $resp = curl_exec($curl);
         curl_close($curl);
-        $json = json_encode(simplexml_load_string($resp));
+        try {
+            $json = json_encode(simplexml_load_string($resp));
+            
+        } catch (Exception $e) {
+            return "error"; 
+        }
+
         $obj = json_decode($json);
         $return = array();
         
         $nomeParlamentar = $obj->nomeParlamentar;
-        echo $nomeParlamentar;
+
         $ideCadastro = $this->getIdeDeputado($matricula);
 
+        if ( is_array($obj->diasDeSessoes2->dia)) {
+            // INteração para percorrer todos os itens retornado da pesquisa ao webservice da camara.
+            $return = $this->interarListaFrequencia($obj,$return);
+        }else{
+            
+            $return = $this->addFrequencia($obj,$return);        
+        }
 
-        // INteração para percorrer todos os itens retornado da pesquisa ao webservice da camara.
+        return $return;   
+    }
+
+
+    /*
+    * Retorna todos os deputados
+    */
+    function getDeputados(){
+        $stmt = $this->conn->prepare("SELECT * FROM deputado");
+        $stmt->execute();
+        $deputados = $stmt->get_result();
+        
+        $stmt->close();
+        return $deputados;
+    }
+
+    function interarListaFrequencia($obj,$return){
         foreach ($obj ->diasDeSessoes2-> dia as $dia) {
+            
             $date = $dia->data;
             $tmp = explode('/', $date);
             $lista['data'] = $tmp[2].'/'.$tmp[1].'/'.$tmp[0];
@@ -160,23 +190,45 @@ class Deputado{
             array_push($return, $lista);
 
         }
+        return $return;
 
-        return $return; 
-        
     }
 
 
-    /*
-    * Retorna todos os deputados
-    */
-    function getDeputados(){
-        $stmt = $this->conn->prepare("SELECT * FROM deputado");
+    function addFrequencia($obj,$return){
+        
+        $dia = $obj ->diasDeSessoes2-> dia;
+        $date = $dia->data;
+        $tmp = explode('/', $date);
+        $lista['data'] = $tmp[2].'/'.$tmp[1].'/'.$tmp[0];
+        $lista['frequencia'] = $dia -> frequencianoDia;
+        $lista['justificativa']= $dia -> justificativa;
+        $lista['qtdeSessoes']= $dia -> qtdeSessoes;
+        if (!is_string($lista['justificativa'])) {
+            $lista['justificativa'] = NULL;
+        }
+
+        //codigo de inserção no das relações de presença no BD
+        $stmt = $this->conn->prepare("INSERT INTO data(idData) 
+            values ( ? )");
+        $stmt->bind_param( "s", $lista['data'] );
         $stmt->execute();
-        $deputados = $stmt->get_result();
-        
+        //$stmt->close();
+
+        //Adciona o relacionamento entre a tabela data e a tabela deputado
+
+        $stmt = $this->conn->prepare("INSERT INTO data_has_deputado( data_idData, deputado_ideCadastro, frequencia, justificativa, qtdeSessoes) 
+            values (? , ? , ? , ? , ? )");
+        $stmt->bind_param( "sissi", $lista['data'], $ideCadastro, $lista['frequencia'], $lista['justificativa'], $lista['qtdeSessoes']);
+        $stmt->execute();
         $stmt->close();
-        return $deputados;
+        array_push($return, $lista);
+
+        return $return;
+
     }
+
+
 
 }
 ?>

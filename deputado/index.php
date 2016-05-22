@@ -35,8 +35,16 @@
         echo $dataFinal;
         echo $matricula;*/
 
-        //print_r($response);
-        echoRespnse(200, $response);
+        if ($response == "error") {
+            # code...
+            echoRespnse(400, $response);
+            
+        }else{
+            echoRespnse(200, $response);
+        }
+
+
+        
     });
 
     /*

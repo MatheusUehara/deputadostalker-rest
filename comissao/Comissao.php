@@ -19,8 +19,8 @@ class Comissao{
     /*
      * Retorna os relacionamentos de todos os deputados e suas comissoes
      */
-    function getComissoesDeputados(){
-        $stmt = $this->conn->prepare("SELECT * FROM deputado_has_orgao");
+    function getComissoesDeputados($ideCadastro){
+        $stmt = $this->conn->prepare("SELECT * FROM deputado_has_orgao where ");
         $stmt->execute();
         $deputados = $stmt->get_result();
         $stmt->close();

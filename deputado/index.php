@@ -4,6 +4,17 @@
     $app = new \Slim\Slim();
 
     /*
+<<<<<<< HEAD
+=======
+    * Primeira rota criada afim de testar os serviços
+    */
+/*    $app->get('/:name', function ($name) {
+        echo "Hello , $name"."<br>";
+    });*/
+
+
+    /*
+>>>>>>> remotes/origin/master
     * Preenche/Atualiza a base de dados com os deputados
     */
     $app->get('/atualizarBaseDeputados/', function () {
@@ -36,6 +47,33 @@
 
     });
     
+
+    $app->get('/frequencia/de=:dataInicial/ate=:dataFinal/deputadoMatricula=:matricula', function ($dataInicial,$dataFinal,$matricula) {
+
+
+
+        $deputado = new Deputado();
+
+        $dataInicial = str_replace("-", "/", $dataInicial);
+        $dataFinal = str_replace("-", "/", $dataFinal);
+        
+
+        $response = $deputado->obterPresencaDeputado($dataInicial,$dataFinal,$matricula);
+/*        echo $dataInicial;
+        echo $dataFinal;
+        echo $matricula;*/
+
+        if ($response == "error") {
+            # code...
+            echoRespnse(400, $response);
+            
+        }else{
+            echoRespnse(200, $response);
+        }
+
+
+        
+    });
 
     /*
     * Retorna todos os deputados presentes na base de dados

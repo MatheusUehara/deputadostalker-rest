@@ -10,8 +10,8 @@ require_once 'Proposicoes.php';
 require_once '../libs/vendor/autoload.php';
 $app = new \Slim\Slim();
 
-$app->get('/getProposicoes/', function() {
-    $proposicao = new Proposicoes();
+$app->get('/', function() {
+    $proposicao = new Proposicao();
     $response = array();
     $result = $proposicao->getProposicoes();
 

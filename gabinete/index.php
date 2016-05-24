@@ -4,7 +4,9 @@
     require_once '../libs/vendor/autoload.php';
     $app = new \Slim\Slim();
 
-    $app->get('/gabinete/', function() {
+    /*Rota que retorna todos os gabinetes
+    */
+    $app->get('/', function() {
         $gabinete = new Gabinete();
         $response = array();
         $result = $gabinete->getGabinetes();

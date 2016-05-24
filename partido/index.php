@@ -3,7 +3,7 @@
     require_once '../libs/vendor/autoload.php';
     $app = new \Slim\Slim();
 
-    $app->get('/partido/', function() {
+    $app->get('/', function() {
         $partido = new Partido();
         $response = array();
         $result = $partido->getPartidos();

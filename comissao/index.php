@@ -3,7 +3,7 @@
     require_once '../libs/vendor/autoload.php';
     $app = new \Slim\Slim();
 
-    $app->get('/comissao/', function() {
+    $app->get('/', function() {
         $comissao = new Comissao();
         $result = $comissao->getComissoes();
 
@@ -20,7 +20,7 @@
         echoRespnse(200, $response);
     });
 
-$app->get('/comissao/:ideCadastro', function($ideCadastro) {
+$app->get('/:ideCadastro', function($ideCadastro) {
     $comissao = new Comissao();
     $result = $comissao->getComissoesDeputados();
 

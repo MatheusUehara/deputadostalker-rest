@@ -4,7 +4,7 @@
     require_once '../libs/vendor/autoload.php';
     $app = new \Slim\Slim();
 
-    $app->get('/getGabinetes/', function() {
+    $app->get('/gabinete/', function() {
         $gabinete = new Gabinete();
         $response = array();
         $result = $gabinete->getGabinetes();

@@ -27,7 +27,6 @@
         echo $matricula;*/
 
         if ($response == "error") {
-            # code...
             echoRespnse(400, $response);
             
         }else{
@@ -39,6 +38,7 @@
     /*
     * Retorna todos os deputados presentes na base de dados
     */
+    
     $app->get('/', function() {
         $deputado = new Deputado();
         $response = array();
